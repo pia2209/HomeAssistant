@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "input_select",
+  "data": {
+    "items": [
+      {
+        "id": "default_dashboard",
+        "name": "Default Dashboard",
+        "options": [
+          "lovelace",
+          "map",
+          "dashboard-smarthome",
+          "ui-lovelace-minimalist",
+          "adaptive-dash",
+          "refresh"
+        ],
+        "initial": "lovelace"
+      }
+    ]
+  }
+}

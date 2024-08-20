@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "core.label_registry",
+  "data": {
+    "labels": [
+      {
+        "color": "light-blue",
+        "description": null,
+        "icon": "mdi:leak",
+        "label_id": "sensor",
+        "name": "Sensor",
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "color": "amber",
+        "description": null,
+        "icon": "mdi:ceiling-light-multiple-outline",
+        "label_id": "lampe",
+        "name": "Lampe",
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "color": "light-green",
+        "description": null,
+        "icon": "mdi:spirit-level",
+        "label_id": "drucker",
+        "name": "Drucker",
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "color": "grey",
+        "description": null,
+        "icon": "mdi:server",
+        "label_id": "host",
+        "name": "Host",
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "color": "cyan",
+        "description": null,
+        "icon": "mdi:arrow-oscillating",
+        "label_id": "alexa",
+        "name": "Alexa",
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "color": "lime",
+        "description": null,
+        "icon": "mdi:camera",
+        "label_id": "camera",
+        "name": "Camera",
+        "created_at": "2024-08-04T17:44:25.956188+00:00",
+        "modified_at": "2024-08-04T17:44:25.956196+00:00"
+      },
+      {
+        "color": "purple",
+        "description": null,
+        "icon": "mdi:robot-vacuum",
+        "label_id": "sauger",
+        "name": "sauger",
+        "created_at": "2024-08-04T17:44:50.485242+00:00",
+        "modified_at": "2024-08-04T17:44:50.485250+00:00"
+      },
+      {
+        "color": "accent",
+        "description": null,
+        "icon": "mdi:television",
+        "label_id": "tv",
+        "name": "tv",
+        "created_at": "2024-08-04T17:45:45.281114+00:00",
+        "modified_at": "2024-08-04T17:45:45.281121+00:00"
+      },
+      {
+        "color": "yellow",
+        "description": null,
+        "icon": "mdi:pipe-valve",
+        "label_id": "heizung",
+        "name": "heizung",
+        "created_at": "2024-08-04T17:50:18.028993+00:00",
+        "modified_at": "2024-08-04T17:50:18.029001+00:00"
+      },
+      {
+        "color": "pink",
+        "description": null,
+        "icon": "mdi:hub",
+        "label_id": "hub_gateway",
+        "name": "hub gateway",
+        "created_at": "2024-08-04T17:50:32.945925+00:00",
+        "modified_at": "2024-08-04T17:50:32.945932+00:00"
+      },
+      {
+        "color": "green",
+        "description": null,
+        "icon": "mdi:tumble-dryer",
+        "label_id": "dryer",
+        "name": "dryer",
+        "created_at": "2024-08-04T17:50:47.938386+00:00",
+        "modified_at": "2024-08-04T17:51:15.742131+00:00"
+      }
+    ]
+  }
+}

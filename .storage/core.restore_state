@@ -1,0 +1,897 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.pias_smarthome","state":"home","attributes":{"editable":true,"id":"pias_smarthome","device_trackers":["device_tracker.iphone_14_pia","device_tracker.iphone_11_pia"],"latitude":52.28573943264633,"longitude":7.4659218877146225,"gps_accuracy":28,"source":"device_tracker.iphone_14_pia","user_id":"a4afec288dfa47159bd15a9b0268d633","friendly_name":"Pias SmartHome"},"last_changed":"2024-08-04T18:39:40.875375+00:00","last_reported":"2024-08-04T18:47:18.276904+00:00","last_updated":"2024-08-04T18:47:18.276904+00:00","context":{"id":"01J4FBFA0436TKTY8RB1GWP6HF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.07.0","in_progress":false,"latest_version":"2024.07.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.07.0","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-08-04T18:39:41.167898+00:00","last_reported":"2024-08-04T18:39:41.167898+00:00","last_updated":"2024-08-04T18:39:41.167898+00:00","context":{"id":"01J4FB1BKF40WVPF9X3FJTKJ4D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.8.0b1","in_progress":false,"latest_version":"2024.8.0b1","release_summary":null,"release_url":"https://rc.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-08-04T18:39:41.168233+00:00","last_reported":"2024-08-04T18:39:41.168233+00:00","last_updated":"2024-08-04T18:39:41.168233+00:00","context":{"id":"01J4FB1BKGTADXEJRXN1PG675V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.matter_server_update","state":"off","attributes":{"auto_update":true,"installed_version":"6.3.1","in_progress":false,"latest_version":"6.3.1","release_summary":"# Changelog\n\n## 6.3.1\n\n- Fix Matter SDK log level when using beta flag\n\n## 6.3.0\n\n- Bump Python Matter Server to [6.3.0](https://github.com/home-assistant-libs/python-matter-server/releases/tag/6.3.0)\n\n## 6.2.1\n\n- Bump Python Matter Server to [6.2.1](http","release_url":null,"skipped_version":null,"title":"Matter Server","entity_picture":"/api/hassio/addons/core_matter_server/icon","friendly_name":"Matter Server Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.168476+00:00","last_reported":"2024-08-04T18:39:41.168476+00:00","last_updated":"2024-08-04T18:39:41.168476+00:00","context":{"id":"01J4FB1BKGSTFC3SH3TQG429FF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":"# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-","release_url":null,"skipped_version":null,"title":"File editor","entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.168710+00:00","last_reported":"2024-08-04T18:39:41.168710+00:00","last_updated":"2024-08-04T18:39:41.168710+00:00","context":{"id":"01J4FB1BKGEA7GRNDKXSR420H1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.cec_scanner_update","state":"off","attributes":{"auto_update":true,"installed_version":"3.0","in_progress":false,"latest_version":"3.0","release_summary":"# Changelog\n\n## 3.0\n\n- Using the Upstream Linux support only\n- Using s6-overlay style\n- Update to Alpine 3.14\n\n## 2.4\n\n- Use new `video` feature of Supervisor 199\n\n## 2.3\n\n- Add support for Meson AOCEC\n- Add support for EXYNOS\n- Add support for linux nati","release_url":null,"skipped_version":null,"title":"CEC Scanner","entity_picture":"/api/hassio/addons/core_cec_scan/icon","friendly_name":"CEC Scanner Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.168908+00:00","last_reported":"2024-08-04T18:39:41.168908+00:00","last_updated":"2024-08-04T18:39:41.168908+00:00","context":{"id":"01J4FB1BKGA8N10CZFQA8QWT5M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.terminal_ssh_update","state":"off","attributes":{"auto_update":true,"installed_version":"9.14.0","in_progress":false,"latest_version":"9.14.0","release_summary":"# Changelog\n\n## 9.14.0\n\n- Upgrade Home Assistant CLI to 4.34.0\n\n## 9.13.0\n\n- Enable ha command completion for non-login shell (e.g. the web terminal)\n\n## 9.12.0\n\n- Install completions for ha commands\n- Fix bash_history file check in startup\n\n## 9.11.0\n\n- ","release_url":null,"skipped_version":null,"title":"Terminal & SSH","entity_picture":"/api/hassio/addons/core_ssh/icon","friendly_name":"Terminal & SSH Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.169239+00:00","last_reported":"2024-08-04T18:39:41.169239+00:00","last_updated":"2024-08-04T18:39:41.169239+00:00","context":{"id":"01J4FB1BKHFV5AFGH779D96T26","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.esphome_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.7.3","in_progress":false,"latest_version":"2024.7.3","release_summary":"## 2024.7.3\n\n- [pmwcs3] Add delay after sending REG_READ_START [esphome#7130](https://github.com/esphome/esphome/pull/7130) by [@thevogoncoder](https://github.com/thevogoncoder)\n- Fix for Mitsubishi units that only support cooling [esphome#7143](https://g","release_url":null,"skipped_version":null,"title":"ESPHome","entity_picture":"/api/hassio/addons/5c53de3b_esphome/icon","friendly_name":"ESPHome Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.169427+00:00","last_reported":"2024-08-04T18:39:41.169427+00:00","last_updated":"2024-08-04T18:39:41.169427+00:00","context":{"id":"01J4FB1BKH98WSW2VYPAA5PNXN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.assist_microphone_update","state":"off","attributes":{"auto_update":true,"installed_version":"1.2.0","in_progress":false,"latest_version":"1.2.0","release_summary":"# Changelog\n\n## 1.2.0\n\n- Update to wyoming-satellite 1.2.0\n\n## 1.0.0\n\n- Initial release\n\n","release_url":null,"skipped_version":null,"title":"Assist Microphone","friendly_name":"Assist Microphone Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.169622+00:00","last_reported":"2024-08-04T18:39:41.169622+00:00","last_updated":"2024-08-04T18:39:41.169622+00:00","context":{"id":"01J4FB1BKH9R4WM74ECNJFCKTZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.169801+00:00","last_reported":"2024-08-04T18:39:41.169801+00:00","last_updated":"2024-08-04T18:39:41.169801+00:00","context":{"id":"01J4FB1BKHT6HDMNRA70BPXW70","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.music_assistant_server_update","state":"off","attributes":{"auto_update":true,"installed_version":"2.1.1","in_progress":false,"latest_version":"2.1.1","release_summary":"# [2.1.1] - 03.08.2024\n\n## What's Changed\n* Ensure sort_name makes it to cache by @MelHarbour in https://github.com/music-assistant/server/pull/1538\n* Fix global cache key and YTMusic playlist edge case by @MarvinSchenkel in https://github.com/music-assis","release_url":null,"skipped_version":null,"title":"Music Assistant Server","entity_picture":"/api/hassio/addons/d5369777_music_assistant/icon","friendly_name":"Music Assistant Server Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.169989+00:00","last_reported":"2024-08-04T18:39:41.169989+00:00","last_updated":"2024-08-04T18:39:41.169989+00:00","context":{"id":"01J4FB1BKHQ0RZRZAFBSB920NQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.network_ups_tools_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.13.1","in_progress":false,"latest_version":"0.13.1","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- 🚑 Fix shutdown addon command @sinclairpaul ([#369](https://github.com/hassio-addons/addon-nut/pull/369))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update debian_12/usbutils to v1:014-1+deb12u1 @renovate ([#346](https://github.co","release_url":null,"skipped_version":null,"title":"Network UPS Tools","entity_picture":"/api/hassio/addons/a0d7b954_nut/icon","friendly_name":"Network UPS Tools Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.170177+00:00","last_reported":"2024-08-04T18:39:41.170177+00:00","last_updated":"2024-08-04T18:39:41.170177+00:00","context":{"id":"01J4FB1BKJQQS7Y6M6CEKJ2Y3Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.git_pull_update","state":"off","attributes":{"auto_update":false,"installed_version":"7.14.1","in_progress":false,"latest_version":"7.14.1","release_summary":"# Changelog\n\n## 7.14.1\n- Fix error where $HOME is not defined\n\n## 7.14.0\n\n- Update base image to Alpine 3.19\n- Update Home Assistant CLI to 4.31.0\n\n## 7.13.1\n\n- Update Home Assistant CLI to 4.12.2\n\n## 7.13.0\n\n- Update Home Assistant CLI to 4.12.1\n- Upgrad","release_url":null,"skipped_version":null,"title":"Git pull","entity_picture":"/api/hassio/addons/core_git_pull/icon","friendly_name":"Git pull Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.170355+00:00","last_reported":"2024-08-04T18:39:41.170355+00:00","last_updated":"2024-08-04T18:39:41.170355+00:00","context":{"id":"01J4FB1BKJAS6M6CPM8B9KHD3D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.appdaemon_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.16.6","in_progress":false,"latest_version":"0.16.6","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.9 @renovate ([#339](https://github.com/hassio-addons/addon-appdaemon/pull/339))\n","release_url":null,"skipped_version":null,"title":"AppDaemon","entity_picture":"/api/hassio/addons/a0d7b954_appdaemon/icon","friendly_name":"AppDaemon Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.170523+00:00","last_reported":"2024-08-04T18:39:41.170523+00:00","last_updated":"2024-08-04T18:39:41.170523+00:00","context":{"id":"01J4FB1BKJ3WZ1JVZRY1278B49","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.node_red_update","state":"off","attributes":{"auto_update":false,"installed_version":"18.0.4","in_progress":false,"latest_version":"18.0.4","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update @node-red-contrib-themes/theme-collection to v4.0.3 @renovate ([#1911](https://github.com/hassio-addons/addon-node-red/pull/1911))\n- ⬆️ Update @node-red-contrib-themes/theme-collection to v4.0.4 @re","release_url":null,"skipped_version":null,"title":"Node-RED","entity_picture":"/api/hassio/addons/a0d7b954_nodered/icon","friendly_name":"Node-RED Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.170719+00:00","last_reported":"2024-08-04T18:39:41.170719+00:00","last_updated":"2024-08-04T18:39:41.170719+00:00","context":{"id":"01J4FB1BKJ0E0P31QFR4EFTMDC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.samba_share_update","state":"off","attributes":{"auto_update":true,"installed_version":"12.3.2","in_progress":false,"latest_version":"12.3.2","release_summary":"# Changelog\n## 12.3.2\n\n- Suppress benign idmap logged error\n\n## 12.3.1\n\n- Handle passwords with backslash correctly\n\n## 12.3.0\n\n- Upgrade Alpine Linux to 3.19\n\n## 12.2.0\n\n- Decrease Samba log level\n\n## 12.1.0\n\n- Use the new Home Assistant folder for the `","release_url":null,"skipped_version":null,"title":"Samba share","entity_picture":"/api/hassio/addons/core_samba/icon","friendly_name":"Samba share Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.170901+00:00","last_reported":"2024-08-04T18:39:41.170901+00:00","last_updated":"2024-08-04T18:39:41.170901+00:00","context":{"id":"01J4FB1BKJ1HSYJ95FS77AYTZT","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ftp_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.0.2","in_progress":false,"latest_version":"5.0.2","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_19/openssl to v3.1.4-r3 @renovate ([#175](https://github.com/hassio-addons/addon-ftp/pull/175))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.4 @renovate ([#176](https://github","release_url":null,"skipped_version":null,"title":"FTP","entity_picture":"/api/hassio/addons/a0d7b954_ftp/icon","friendly_name":"FTP Update","supported_features":25},"last_changed":"2024-08-04T18:39:41.171071+00:00","last_reported":"2024-08-04T18:39:41.171071+00:00","last_updated":"2024-08-04T18:39:41.171071+00:00","context":{"id":"01J4FB1BKKQD58P2P1KHNK5EBW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.4","in_progress":false,"latest_version":"12.4","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/12.4","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-08-04T18:39:41.171324+00:00","last_reported":"2024-08-04T18:39:41.171324+00:00","last_updated":"2024-08-04T18:39:41.171324+00:00","context":{"id":"01J4FB1BKKJJVMS10S0V3V7H95","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"input_select.default_dashboard","state":"lovelace","attributes":{"options":["lovelace","map","dashboard-smarthome","ui-lovelace-minimalist","adaptive-dash","refresh"],"editable":true,"friendly_name":"Default Dashboard"},"last_changed":"2024-08-04T18:39:41.451243+00:00","last_reported":"2024-08-04T18:39:41.451243+00:00","last_updated":"2024-08-04T18:39:41.451243+00:00","context":{"id":"01J4FB1BWBS95P1MVHDGHSQEB2","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"input_boolean.default_dashboard","state":"on","attributes":{"editable":true,"friendly_name":"Default Dashboard"},"last_changed":"2024-08-04T18:39:41.451470+00:00","last_reported":"2024-08-04T18:39:41.451470+00:00","last_updated":"2024-08-04T18:39:41.451470+00:00","context":{"id":"01J4FB1BWBYQCPA3WZ69Y9JSPD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-08-04T18:39:41.510695+00:00","last_reported":"2024-08-04T18:39:41.510695+00:00","last_updated":"2024-08-04T18:39:41.510695+00:00","context":{"id":"01J4FB1BY6GWXGNE95K5HTBTK7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"event.genericswitch_taste","state":"unknown","attributes":{"event_types":["initial_press"],"event_type":null,"device_class":"button","friendly_name":"GenericSwitch Taste"},"last_changed":"2024-08-04T18:39:45.237893+00:00","last_reported":"2024-08-04T18:39:45.237893+00:00","last_updated":"2024-08-04T18:39:45.237893+00:00","context":{"id":"01J4FB1FJNESZTDYE09FR2V740","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "last_event_type": null,
+        "last_event_attributes": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"event.genericswitch_taste_2","state":"unknown","attributes":{"event_types":["initial_press"],"event_type":null,"device_class":"button","friendly_name":"GenericSwitch Taste"},"last_changed":"2024-08-04T18:39:45.239066+00:00","last_reported":"2024-08-04T18:39:45.239066+00:00","last_updated":"2024-08-04T18:39:45.239066+00:00","context":{"id":"01J4FB1FJQG1WJRBV8H4KA875K","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "last_event_type": null,
+        "last_event_attributes": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_14_pia_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone 14 Pia Focus"},"last_changed":"2024-08-04T18:39:46.007926+00:00","last_reported":"2024-08-04T18:39:46.007926+00:00","last_updated":"2024-08-04T18:39:46.007926+00:00","context":{"id":"01J4FB1GAQX5QMJGCF7JHSCSMH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone_14_pia","state":"home","attributes":{"source_type":"gps","battery_level":45,"latitude":52.28573943264633,"longitude":7.4659218877146225,"gps_accuracy":28,"altitude":40.01173305232078,"speed":0,"vertical_accuracy":11,"friendly_name":"iPhone 14 Pia"},"last_changed":"2024-08-04T18:47:18.276108+00:00","last_reported":"2024-08-04T18:47:18.276108+00:00","last_updated":"2024-08-04T18:47:18.276108+00:00","context":{"id":"01J4FBFA04F1P759R12MEW7XZE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone 14 Pia Activity"},"last_changed":"2024-08-04T18:52:05.138179+00:00","last_reported":"2024-08-04T18:52:05.138179+00:00","last_updated":"2024-08-04T18:52:05.138179+00:00","context":{"id":"01J4FBR24J11QJ6N25VSPWK044","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_distance","state":"1066","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone 14 Pia Distance"},"last_changed":"2024-08-04T18:52:05.138970+00:00","last_reported":"2024-08-04T18:52:05.138970+00:00","last_updated":"2024-08-04T18:52:05.138970+00:00","context":{"id":"01J4FBR24JGRMDHYZ42WHR51VB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1066,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_floors_ascended","state":"2","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone 14 Pia Floors Ascended"},"last_changed":"2024-08-04T18:39:46.009442+00:00","last_reported":"2024-08-04T18:39:46.009442+00:00","last_updated":"2024-08-04T18:39:46.009442+00:00","context":{"id":"01J4FB1GAS1AFV802T2VHA01CN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_battery_level","state":"40","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-40","friendly_name":"iPhone 14 Pia Battery Level"},"last_changed":"2024-08-04T18:47:18.419109+00:00","last_reported":"2024-08-04T18:47:18.419109+00:00","last_updated":"2024-08-04T18:47:18.419109+00:00","context":{"id":"01J4FBFA4K431EHR4Y9YJW07EW","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 40,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_floors_descended","state":"4","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone 14 Pia Floors Descended"},"last_changed":"2024-08-04T18:39:46.009871+00:00","last_reported":"2024-08-04T18:39:46.009871+00:00","last_updated":"2024-08-04T18:39:46.009871+00:00","context":{"id":"01J4FB1GAS4ZZ5PYYGTX3YVF5A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 4,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-40","friendly_name":"iPhone 14 Pia Battery State"},"last_changed":"2024-08-04T18:39:46.010047+00:00","last_reported":"2024-08-04T18:39:46.010047+00:00","last_updated":"2024-08-04T18:39:46.010047+00:00","context":{"id":"01J4FB1GAT8F5J0JC3GYJ7Y4GV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_storage","state":"59.59","attributes":{"Available":"73,82 GB","Available (Important)":"82,04 GB","Available (Opportunistic)":"75,54 GB","Total":"126,78 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone 14 Pia Storage"},"last_changed":"2024-08-04T18:54:10.690085+00:00","last_reported":"2024-08-04T18:54:10.690085+00:00","last_updated":"2024-08-04T18:54:10.690085+00:00","context":{"id":"01J4FBVWR2VVXWE485XDX407SN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "59.59",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_ssid","state":"WLAN_MESH_PL","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 14 Pia SSID"},"last_changed":"2024-08-04T18:47:18.419782+00:00","last_reported":"2024-08-04T18:47:18.419782+00:00","last_updated":"2024-08-04T18:47:18.419782+00:00","context":{"id":"01J4FBFA4KSAD4V9NWHRVTQ88P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "WLAN_MESH_PL",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_bssid","state":"b0:f2:8:fe:4d:50","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone 14 Pia BSSID"},"last_changed":"2024-08-04T18:47:18.420074+00:00","last_reported":"2024-08-04T18:47:18.420074+00:00","last_updated":"2024-08-04T18:47:18.420074+00:00","context":{"id":"01J4FBFA4MAWYNQFK0ZRS8XW68","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "b0:f2:8:fe:4d:50",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 14 Pia Connection Type"},"last_changed":"2024-08-04T18:47:18.420344+00:00","last_reported":"2024-08-04T18:47:18.420344+00:00","last_updated":"2024-08-04T18:47:18.420344+00:00","context":{"id":"01J4FBFA4MESWQ1KD0TFS0SVVZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 14 Pia SIM 1"},"last_changed":"2024-08-04T18:39:46.011131+00:00","last_reported":"2024-08-04T18:39:46.011131+00:00","last_updated":"2024-08-04T18:39:46.011131+00:00","context":{"id":"01J4FB1GAV4C9NEVYA2EBTZS8M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 14 Pia SIM 2"},"last_changed":"2024-08-04T18:39:46.011324+00:00","last_reported":"2024-08-04T18:39:46.011324+00:00","last_updated":"2024-08-04T18:39:46.011324+00:00","context":{"id":"01J4FB1GAVQER4T7FWTF554GJP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_geocoded_location","state":"Gordenkamp 10\n48429 Rheine\nDeutschland","attributes":{"Administrative Area":"Nordrhein-Westfalen","Areas Of Interest":"N/A","Country":"Deutschland","Inland Water":"N/A","ISO Country Code":"DE","Locality":"Rheine","Location":[52.28573943264633,7.4659218877146225],"Name":"Gordenkamp 10","Ocean":"N/A","Postal Code":"48429","Sub Administrative Area":"Steinfurt","Sub Locality":"Rheine","Sub Thoroughfare":"10","Thoroughfare":"Gordenkamp","Time Zone":"Europe/Berlin","Zones":["Home"],"icon":"mdi:map","friendly_name":"iPhone 14 Pia Geocoded Location"},"last_changed":"2024-08-04T18:47:18.310806+00:00","last_reported":"2024-08-04T18:47:18.310806+00:00","last_updated":"2024-08-04T18:47:18.310806+00:00","context":{"id":"01J4FBFA16QE0690EJM422R4ND","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Gordenkamp 10\n48429 Rheine\nDeutschland",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone 14 Pia Last Update Trigger"},"last_changed":"2024-08-04T18:54:10.694607+00:00","last_reported":"2024-08-04T18:54:10.694607+00:00","last_updated":"2024-08-04T18:54:10.694607+00:00","context":{"id":"01J4FBVWR6KSKJNF071RHPGFVC","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_steps","state":"1662","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone 14 Pia Steps"},"last_changed":"2024-08-04T18:52:05.140027+00:00","last_reported":"2024-08-04T18:52:05.140027+00:00","last_updated":"2024-08-04T18:52:05.140027+00:00","context":{"id":"01J4FBR24M3JMK2Z1JJ3WHZS72","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1662,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_14_pia_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone 14 Pia Average Active Pace"},"last_changed":"2024-08-04T18:39:46.012083+00:00","last_reported":"2024-08-04T18:39:46.012083+00:00","last_updated":"2024-08-04T18:39:46.012083+00:00","context":{"id":"01J4FB1GAWK6MVEQ4T9TJG8GW0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_11_pia_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone 11 Pia Focus"},"last_changed":"2024-08-04T18:39:46.012630+00:00","last_reported":"2024-08-04T18:39:46.012630+00:00","last_updated":"2024-08-04T18:39:46.012630+00:00","context":{"id":"01J4FB1GAW1ABBZNCY1AB5NTW0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone_11_pia","state":"home","attributes":{"source_type":"gps","battery_level":30,"latitude":52.285388277072705,"longitude":7.465823204772737,"gps_accuracy":2,"altitude":39.833067431114614,"course":2,"speed":3,"vertical_accuracy":3,"friendly_name":"iPhone 11 Pia"},"last_changed":"2024-08-04T18:39:46.013014+00:00","last_reported":"2024-08-04T18:39:46.013014+00:00","last_updated":"2024-08-04T18:39:46.013014+00:00","context":{"id":"01J4FB1GAX1FF6CPNWX464WEWH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_battery_level","state":"30","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"iPhone 11 Pia Battery Level"},"last_changed":"2024-08-04T18:39:46.013542+00:00","last_reported":"2024-08-04T18:39:46.013542+00:00","last_updated":"2024-08-04T18:39:46.013542+00:00","context":{"id":"01J4FB1GAXPEH6JW9XZCCBZ8TV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 30,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_ssid","state":"WLAN_MESH_PL","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 11 Pia SSID"},"last_changed":"2024-08-04T18:39:46.013767+00:00","last_reported":"2024-08-04T18:39:46.013767+00:00","last_updated":"2024-08-04T18:39:46.013767+00:00","context":{"id":"01J4FB1GAX4C2G829X00M6XV4C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "WLAN_MESH_PL",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_bssid","state":"b0:f2:8:fe:4d:50","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone 11 Pia BSSID"},"last_changed":"2024-08-04T18:39:46.013946+00:00","last_reported":"2024-08-04T18:39:46.013946+00:00","last_updated":"2024-08-04T18:39:46.013946+00:00","context":{"id":"01J4FB1GAXN07XMS7BF8MZST1D","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "b0:f2:8:fe:4d:50",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone 11 Pia Connection Type"},"last_changed":"2024-08-04T18:39:46.014116+00:00","last_reported":"2024-08-04T18:39:46.014116+00:00","last_updated":"2024-08-04T18:39:46.014116+00:00","context":{"id":"01J4FB1GAYM8Z2QN9Y09MFAXF6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-30","friendly_name":"iPhone 11 Pia Battery State"},"last_changed":"2024-08-04T18:39:46.014289+00:00","last_reported":"2024-08-04T18:39:46.014289+00:00","last_updated":"2024-08-04T18:39:46.014289+00:00","context":{"id":"01J4FB1GAYC9DD7PYHPBPJZ43S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_storage","state":"49.72","attributes":{"Available":"54,15 GB","Available (Important)":"76,75 GB","Available (Opportunistic)":"63,07 GB","Total":"126,86 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone 11 Pia Storage"},"last_changed":"2024-08-04T18:39:46.014464+00:00","last_reported":"2024-08-04T18:43:29.503123+00:00","last_updated":"2024-08-04T18:43:29.503123+00:00","context":{"id":"01J4FB8AJZXQ1KGH51QRRRWAYY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "49.72",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 11 Pia SIM 2"},"last_changed":"2024-08-04T18:39:46.014669+00:00","last_reported":"2024-08-04T18:39:46.014669+00:00","last_updated":"2024-08-04T18:39:46.014669+00:00","context":{"id":"01J4FB1GAY35RJHF1FHC2JYCFA","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone 11 Pia SIM 1"},"last_changed":"2024-08-04T18:39:46.014840+00:00","last_reported":"2024-08-04T18:39:46.014840+00:00","last_updated":"2024-08-04T18:39:46.014840+00:00","context":{"id":"01J4FB1GAY1QVQHASWPC32PDPK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_geocoded_location","state":"Gordenkamp 10\n48429 Rheine\nDeutschland","attributes":{"Administrative Area":"Nordrhein-Westfalen","Areas Of Interest":"N/A","Country":"Deutschland","Inland Water":"N/A","ISO Country Code":"DE","Locality":"Rheine","Location":[52.285388277072705,7.465823204772737],"Name":"Gordenkamp 10","Ocean":"N/A","Postal Code":"48429","Sub Administrative Area":"Steinfurt","Sub Locality":"Rheine","Sub Thoroughfare":"10","Thoroughfare":"Gordenkamp","Time Zone":"Europe/Berlin","Zones":["Home"],"icon":"mdi:map","friendly_name":"iPhone 11 Pia Geocoded Location"},"last_changed":"2024-08-04T18:39:46.015009+00:00","last_reported":"2024-08-04T18:39:46.015009+00:00","last_updated":"2024-08-04T18:39:46.015009+00:00","context":{"id":"01J4FB1GAZK9GFRT6DHMPKTKGH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Gordenkamp 10\n48429 Rheine\nDeutschland",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone 11 Pia Last Update Trigger"},"last_changed":"2024-08-04T18:39:46.015184+00:00","last_reported":"2024-08-04T18:39:46.015184+00:00","last_updated":"2024-08-04T18:39:46.015184+00:00","context":{"id":"01J4FB1GAZRSBT79PSPYN88A2C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_distance","state":"840","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone 11 Pia Distance"},"last_changed":"2024-08-04T18:39:46.015357+00:00","last_reported":"2024-08-04T18:39:46.015357+00:00","last_updated":"2024-08-04T18:39:46.015357+00:00","context":{"id":"01J4FB1GAZ501GT6AT54NW3M2H","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 840,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"iPhone 11 Pia Activity"},"last_changed":"2024-08-04T18:39:46.015721+00:00","last_reported":"2024-08-04T18:39:46.015721+00:00","last_updated":"2024-08-04T18:39:46.015721+00:00","context":{"id":"01J4FB1GAZ84PZH7YC5M56RE45","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_floors_ascended","state":"2","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone 11 Pia Floors Ascended"},"last_changed":"2024-08-04T18:39:46.015911+00:00","last_reported":"2024-08-04T18:39:46.015911+00:00","last_updated":"2024-08-04T18:39:46.015911+00:00","context":{"id":"01J4FB1GAZKZEKRWBH00EMYR2F","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_floors_descended","state":"4","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone 11 Pia Floors Descended"},"last_changed":"2024-08-04T18:39:46.016087+00:00","last_reported":"2024-08-04T18:39:46.016087+00:00","last_updated":"2024-08-04T18:39:46.016087+00:00","context":{"id":"01J4FB1GB0FQ7M888Q4C9YAR31","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 4,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_steps","state":"1327","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone 11 Pia Steps"},"last_changed":"2024-08-04T18:39:46.016263+00:00","last_reported":"2024-08-04T18:39:46.016263+00:00","last_updated":"2024-08-04T18:39:46.016263+00:00","context":{"id":"01J4FB1GB0F959RQ7TNECYZ705","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1327,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_11_pia_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone 11 Pia Average Active Pace"},"last_changed":"2024-08-04T18:39:46.016436+00:00","last_reported":"2024-08-04T18:39:46.016436+00:00","last_updated":"2024-08-04T18:39:46.016436+00:00","context":{"id":"01J4FB1GB0P6VCMHFQ3A1EHDSF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mi_6476012289_message","state":"Mi 360°-Heimsicherheitskamera 2K   : User 6476012289 is watching the livestream of 19:47 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on.","attributes":{"entity_class":"MihomeMessageSensor","filter_homes":[],"exclude_types":[13],"msg_id":1820154727105056768,"is_new":1,"type":6,"title":"User 6476012289 is watching the livestream of 19:47 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on.","content":"Mi 360°-Heimsicherheitskamera 2K   ","user_id":6476012289,"ctime":1722793678,"timestamp":"2024-08-04T19:47:58+02:00","model":"chuangmi.camera.029a02","device_id":"447823554","home_name":"pia","room_name":"Wohnbereich","event":"stream","event_data":null,"prev_message":"Mi 360°-Heimsicherheitskamera 2K   : User 6476012289 is watching the livestream of 19:43 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on.","icon":"mdi:message","friendly_name":"Xiaomi 6476012289 message"},"last_changed":"2024-08-04T18:39:46.242520+00:00","last_reported":"2024-08-04T18:39:46.242661+00:00","last_updated":"2024-08-04T18:39:46.242520+00:00","context":{"id":"01J4FB1GJ2Y8GFK2PQFRHKJQVH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "state": "Mi 360°-Heimsicherheitskamera 2K   : User 6476012289 is watching the livestream of 19:47 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on.",
+        "attrs": {
+          "entity_class": "MihomeMessageSensor",
+          "filter_homes": [],
+          "exclude_types": [
+            13
+          ],
+          "msg_id": 1820154727105056768,
+          "is_new": 1,
+          "type": 6,
+          "title": "User 6476012289 is watching the livestream of 19:47 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on.",
+          "content": "Mi 360°-Heimsicherheitskamera 2K   ",
+          "user_id": 6476012289,
+          "ctime": 1722793678,
+          "timestamp": "2024-08-04T19:47:58+02:00",
+          "model": "chuangmi.camera.029a02",
+          "device_id": "447823554",
+          "home_name": "pia",
+          "room_name": "Wohnbereich",
+          "event": "stream",
+          "event_data": null,
+          "prev_message": "Mi 360°-Heimsicherheitskamera 2K   : User 6476012289 is watching the livestream of 19:43 on a smart display from Mi 360°-Heimsicherheitskamera 2K    on."
+        }
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mi_6476012289_663001029108_scene_history","state":"unknown","attributes":{"entity_class":"MihomeSceneHistorySensor","icon":"mdi:message","friendly_name":"Xiaomi 6476012289_663001029108 Scene History"},"last_changed":"2024-08-04T18:39:46.402048+00:00","last_reported":"2024-08-04T18:39:46.402221+00:00","last_updated":"2024-08-04T18:39:46.402048+00:00","context":{"id":"01J4FB1GQ2RMXDMY03QTMPAFAX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "state": null,
+        "attrs": {
+          "entity_class": "MihomeSceneHistorySensor"
+        }
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-08-04T18:39:46.111964+00:00","last_reported":"2024-08-04T18:39:46.111964+00:00","last_updated":"2024-08-04T18:39:46.111964+00:00","context":{"id":"01J4FB1GDZH5KE2NXRDAPHC3HH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.kuchenlampe_aus","state":"unknown","attributes":{"friendly_name":"Küchenlampe aus"},"last_changed":"2024-08-04T18:39:47.664276+00:00","last_reported":"2024-08-04T18:39:47.664276+00:00","last_updated":"2024-08-04T18:39:47.664276+00:00","context":{"id":"01J4FB1HYGC8G3JHMF2DT5GET5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.kuchenlampe_an","state":"unknown","attributes":{"friendly_name":"Küchenlampe an"},"last_changed":"2024-08-04T18:39:47.665650+00:00","last_reported":"2024-08-04T18:39:47.665650+00:00","last_updated":"2024-08-04T18:39:47.665650+00:00","context":{"id":"01J4FB1HYH0EZTNYJ73ASXA5Z4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.childlock_heizung","state":"unknown","attributes":{"friendly_name":"Childlock heizung"},"last_changed":"2024-08-04T18:39:47.666830+00:00","last_reported":"2024-08-04T18:39:47.666830+00:00","last_updated":"2024-08-04T18:39:47.666830+00:00","context":{"id":"01J4FB1HYJ5RMST5T125HR0J4J","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.heizung_auf_22","state":"unknown","attributes":{"friendly_name":"Heizung auf 22"},"last_changed":"2024-08-04T18:39:47.667985+00:00","last_reported":"2024-08-04T18:39:47.667985+00:00","last_updated":"2024-08-04T18:39:47.667985+00:00","context":{"id":"01J4FB1HYK6WVN22WPW8NN3VJ3","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.heizung_auf_20","state":"unknown","attributes":{"friendly_name":"Heizung auf 20"},"last_changed":"2024-08-04T18:39:47.669091+00:00","last_reported":"2024-08-04T18:39:47.669091+00:00","last_updated":"2024-08-04T18:39:47.669091+00:00","context":{"id":"01J4FB1HYNYSSEV0Q07QK28HWJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_reset_main_brush","state":"unknown","attributes":{"icon":"mdi:car-turbocharger","friendly_name":"DreameBot W10 Reset Main Brush"},"last_changed":"2024-08-04T18:39:48.531972+00:00","last_reported":"2024-08-04T18:39:49.786352+00:00","last_updated":"2024-08-04T18:39:48.531972+00:00","context":{"id":"01J4FB1JSK36HC6YA2TPYYMMK4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_reset_side_brush","state":"unknown","attributes":{"icon":"mdi:pinwheel-outline","friendly_name":"DreameBot W10 Reset Side Brush"},"last_changed":"2024-08-04T18:39:48.532140+00:00","last_reported":"2024-08-04T18:39:49.786363+00:00","last_updated":"2024-08-04T18:39:48.532140+00:00","context":{"id":"01J4FB1JSMVHET19AB71MDGG82","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_reset_filter","state":"unknown","attributes":{"icon":"mdi:air-filter","friendly_name":"DreameBot W10 Reset Filter"},"last_changed":"2024-08-04T18:39:48.532295+00:00","last_reported":"2024-08-04T18:39:49.786374+00:00","last_updated":"2024-08-04T18:39:48.532295+00:00","context":{"id":"01J4FB1JSMY7H0SWVDJYPAKSG8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_reset_sensor","state":"unknown","attributes":{"icon":"mdi:radar","friendly_name":"DreameBot W10 Reset Sensor"},"last_changed":"2024-08-04T18:39:48.532441+00:00","last_reported":"2024-08-04T18:39:49.786384+00:00","last_updated":"2024-08-04T18:39:48.532441+00:00","context":{"id":"01J4FB1JSM0B9RFTND148WPE7S","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_reset_mop_pad","state":"unknown","attributes":{"icon":"mdi:hydro-power","friendly_name":"DreameBot W10 Reset Mop Pad"},"last_changed":"2024-08-04T18:39:48.532587+00:00","last_reported":"2024-08-04T18:39:49.786394+00:00","last_updated":"2024-08-04T18:39:48.532587+00:00","context":{"id":"01J4FB1JSMD6SPEAB73G0FMQ1T","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_clear_warning","state":"unavailable","attributes":{"icon":"mdi:clipboard-check-outline","friendly_name":"DreameBot W10 Clear Warning"},"last_changed":"2024-08-04T18:39:48.532776+00:00","last_reported":"2024-08-04T18:39:49.786406+00:00","last_updated":"2024-08-04T18:39:48.532776+00:00","context":{"id":"01J4FB1JSM147VMA75FXMJTZZ9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_start_fast_mapping","state":"unknown","attributes":{"icon":"mdi:map-plus","friendly_name":"DreameBot W10 Start Fast Mapping"},"last_changed":"2024-08-04T18:39:48.532944+00:00","last_reported":"2024-08-04T18:39:49.786429+00:00","last_updated":"2024-08-04T18:39:48.532944+00:00","context":{"id":"01J4FB1JSMPY08J65T9BVJZ36A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_self_clean","state":"unknown","attributes":{"icon":"mdi:washing-machine","friendly_name":"DreameBot W10 Self-Clean"},"last_changed":"2024-08-04T18:39:48.533196+00:00","last_reported":"2024-08-04T18:39:49.786458+00:00","last_updated":"2024-08-04T18:39:48.533196+00:00","context":{"id":"01J4FB1JSN8V3TMDZHN29D3X5D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_self_clean_pause","state":"unavailable","attributes":{"icon":"mdi:washing-machine-off","friendly_name":"DreameBot W10 Self-Clean Pause"},"last_changed":"2024-08-04T18:39:48.533339+00:00","last_reported":"2024-08-04T18:39:49.786471+00:00","last_updated":"2024-08-04T18:39:48.533339+00:00","context":{"id":"01J4FB1JSNXB1QMBPRWE3Y35GS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_start_drying","state":"unknown","attributes":{"icon":"mdi:weather-sunny","friendly_name":"DreameBot W10 Start Drying"},"last_changed":"2024-08-04T18:39:48.533503+00:00","last_reported":"2024-08-04T18:39:49.786495+00:00","last_updated":"2024-08-04T18:39:48.533503+00:00","context":{"id":"01J4FB1JSND8SC6Y7DXYJDDG65","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.dreamebot_w10_stop_drying","state":"unavailable","attributes":{"icon":"mdi:weather-sunny-off","friendly_name":"DreameBot W10 Stop Drying"},"last_changed":"2024-08-04T18:39:48.533697+00:00","last_reported":"2024-08-04T18:39:49.786517+00:00","last_updated":"2024-08-04T18:39:48.533697+00:00","context":{"id":"01J4FB1JSN0QFN2SWGQR1F6AEE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.trocknerlg_remote_start","state":"unavailable","attributes":{"device_class":"update","icon":"mdi:play-circle-outline","friendly_name":"TrocknerLG Remote Start"},"last_changed":"2024-08-04T18:39:50.247892+00:00","last_reported":"2024-08-04T18:39:50.247892+00:00","last_updated":"2024-08-04T18:39:50.247892+00:00","context":{"id":"01J4FB1MF71RM66AX442D0A0AB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.trocknerlg_pause","state":"unavailable","attributes":{"device_class":"update","icon":"mdi:pause-circle-outline","friendly_name":"TrocknerLG Pause"},"last_changed":"2024-08-04T18:39:50.248310+00:00","last_reported":"2024-08-04T18:39:50.248310+00:00","last_updated":"2024-08-04T18:39:50.248310+00:00","context":{"id":"01J4FB1MF8HH3618EB5Z62HPWS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fritzbox_pia_firmware_update","state":"unknown","attributes":{"device_class":"update","friendly_name":"FritzBox-Pia Firmware Update"},"last_changed":"2024-08-04T18:39:53.668636+00:00","last_reported":"2024-08-04T18:39:53.668636+00:00","last_updated":"2024-08-04T18:39:53.668636+00:00","context":{"id":"01J4FB1QT4F74QMDSZ32N838QD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fritzbox_pia_neu_starten","state":"unknown","attributes":{"device_class":"restart","friendly_name":"FritzBox-Pia Neu starten"},"last_changed":"2024-08-04T18:39:53.669073+00:00","last_reported":"2024-08-04T18:39:53.669073+00:00","last_updated":"2024-08-04T18:39:53.669073+00:00","context":{"id":"01J4FB1QT54CFNQBZW001JQ6VC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fritzbox_pia_neu_verbinden","state":"unknown","attributes":{"device_class":"restart","friendly_name":"FritzBox-Pia Neu verbinden"},"last_changed":"2024-08-04T18:39:53.669441+00:00","last_reported":"2024-08-04T18:39:53.669441+00:00","last_updated":"2024-08-04T18:39:53.669441+00:00","context":{"id":"01J4FB1QT53SFRCQ24V47YXQ7E","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fritzbox_pia_aufraumen","state":"unknown","attributes":{"friendly_name":"FritzBox-Pia Aufräumen"},"last_changed":"2024-08-04T18:39:53.670276+00:00","last_reported":"2024-08-04T18:39:53.670276+00:00","last_updated":"2024-08-04T18:39:53.670276+00:00","context":{"id":"01J4FB1QT61DQVYEHY2J4NNW81","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.fritzbox_pia_fritz_os","state":"off","attributes":{"auto_update":false,"installed_version":"7.81","in_progress":false,"latest_version":"7.81","release_summary":null,"release_url":"","skipped_version":null,"title":"FRITZ!OS","entity_picture":"https://brands.home-assistant.io/_/fritz/icon.png","friendly_name":"FritzBox-Pia FRITZ!OS","supported_features":1},"last_changed":"2024-08-04T18:39:53.738256+00:00","last_reported":"2024-08-04T18:39:53.738256+00:00","last_updated":"2024-08-04T18:39:53.738256+00:00","context":{"id":"01J4FB1QWATQ4S56K684TG0RXX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"number.chuangmi_029a02_eb56_image_rollover","state":"0","attributes":{"min":0,"max":180,"step":180,"mode":"auto","entity_class":"MiotNumberSubEntity","parent_entity_id":"camera.chuangmi_029a02_eb56_camera_control","service_description":"Camera Control","property_description":"Image Rollover","camera_control.image_rollover":0,"unit_of_measurement":"arcdegrees","friendly_name":"Mi 360° Home Security Camera 2K Camera Control Image Rollover","supported_features":0},"last_changed":"2024-08-04T18:40:46.986772+00:00","last_reported":"2024-08-04T18:40:46.986772+00:00","last_updated":"2024-08-04T18:40:46.986772+00:00","context":{"id":"01J4FB3BWADYZ4SC637CB8RPJZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 180,
+        "native_min_value": 0,
+        "native_step": 180,
+        "native_unit_of_measurement": "arcdegrees",
+        "native_value": 0
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"number.chuangmi_029a02_eb56_alarm_interval","state":"10","attributes":{"min":0,"max":30,"step":1,"mode":"auto","entity_class":"MiotNumberSubEntity","parent_entity_id":"camera.chuangmi_029a02_eb56_camera_control","service_description":"Motion Detection","property_description":"Alarm Interval","motion_detection.alarm_interval":10,"unit_of_measurement":"minutes","friendly_name":"Mi 360° Home Security Camera 2K Motion Detection Alarm Interval","supported_features":0},"last_changed":"2024-08-04T18:40:46.998248+00:00","last_reported":"2024-08-04T18:40:46.998248+00:00","last_updated":"2024-08-04T18:40:46.998248+00:00","context":{"id":"01J4FB3BWP1J4642EC7ZCBZ0E4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 30,
+        "native_min_value": 0,
+        "native_step": 1,
+        "native_unit_of_measurement": "minutes",
+        "native_value": 10
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ble_rssi_1ca92e23f0874df7b9a2fd4b716a4bf6","state":"-81.3636363636364","attributes":{"state_class":"measurement","sensor_type":"iBeacon","uuid":"1ca92e23-f087-4df7-b9a2-fd4b716a4bf6","last_packet_id":"no packet id","firmware":"iBeacon","mac_address":"67:ED:2D:07:B0:6F","last_mean_of":11,"median":-82,"mean":-81.36363636363636,"unit_of_measurement":"dBm","device_class":"signal_strength","friendly_name":"ble rssi 1CA92E23F0874DF7B9A2FD4B716A4BF6"},"last_changed":"2024-08-04T18:53:48.852951+00:00","last_reported":"2024-08-04T18:53:48.852951+00:00","last_updated":"2024-08-04T18:53:48.852951+00:00","context":{"id":"01J4FBV7DMF37RQM51KM93XH4J","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": -81.36363636363636,
+        "native_unit_of_measurement": "dBm"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ble_measured_power_1ca92e23f0874df7b9a2fd4b716a4bf6","state":"3","attributes":{"state_class":"measurement","sensor_type":"iBeacon","uuid":"1ca92e23-f087-4df7-b9a2-fd4b716a4bf6","last_packet_id":"no packet id","firmware":"iBeacon","mac_address":"67:ED:2D:07:B0:6F","last_mean_of":11,"median":3,"mean":3,"rssi":-81,"unit_of_measurement":"dBm","device_class":"signal_strength","friendly_name":"ble measured power 1CA92E23F0874DF7B9A2FD4B716A4BF6"},"last_changed":"2024-08-04T18:53:48.853696+00:00","last_reported":"2024-08-04T18:53:48.853696+00:00","last_updated":"2024-08-04T18:53:48.853696+00:00","context":{"id":"01J4FBV7DNVCJJAQC8N8N3W5G6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "dBm"
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ble_mac_1ca92e23f0874df7b9a2fd4b716a4bf6","state":"67:ED:2D:07:B0:6F","attributes":{"sensor_type":"iBeacon","uuid":"1ca92e23-f087-4df7-b9a2-fd4b716a4bf6","last_packet_id":"no packet id","firmware":"iBeacon","mac_address":"67:ED:2D:07:B0:6F","rssi":-81,"icon":"mdi:alpha-m-circle-outline","friendly_name":"ble mac 1CA92E23F0874DF7B9A2FD4B716A4BF6"},"last_changed":"2024-08-04T18:53:29.830326+00:00","last_reported":"2024-08-04T18:53:29.830326+00:00","last_updated":"2024-08-04T18:53:29.830326+00:00","context":{"id":"01J4FBTMV6EMVETD52750MBPM7","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "67:ED:2D:07:B0:6F",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ble_major_1ca92e23f0874df7b9a2fd4b716a4bf6","state":"1587","attributes":{"sensor_type":"iBeacon","uuid":"1ca92e23-f087-4df7-b9a2-fd4b716a4bf6","last_packet_id":"no packet id","firmware":"iBeacon","mac_address":"67:ED:2D:07:B0:6F","rssi":-81,"icon":"mdi:counter","friendly_name":"ble major 1CA92E23F0874DF7B9A2FD4B716A4BF6"},"last_changed":"2024-08-04T18:53:25.196220+00:00","last_reported":"2024-08-04T18:53:25.196220+00:00","last_updated":"2024-08-04T18:53:25.196220+00:00","context":{"id":"01J4FBTGACHR9KAABZY7VNVMRX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1587,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ble_minor_1ca92e23f0874df7b9a2fd4b716a4bf6","state":"0","attributes":{"sensor_type":"iBeacon","uuid":"1ca92e23-f087-4df7-b9a2-fd4b716a4bf6","last_packet_id":"no packet id","firmware":"iBeacon","mac_address":"6F:1B:93:A0:A1:31","rssi":-53,"icon":"mdi:counter","friendly_name":"ble minor 1CA92E23F0874DF7B9A2FD4B716A4BF6"},"last_changed":"2024-08-04T18:41:06.404571+00:00","last_reported":"2024-08-04T18:41:06.404571+00:00","last_updated":"2024-08-04T18:41:06.404571+00:00","context":{"id":"01J4FB3YV4QSR4DBKNTM1TQMNV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.passive_ble_monitor_integration_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.14.0","in_progress":false,"latest_version":"12.14.0","release_summary":null,"release_url":"https://github.com/custom-components/ble_monitor/releases/12.14.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/ble_monitor/icon.png","friendly_name":"Passive BLE monitor integration update","supported_features":23},"last_changed":"2024-08-04T18:52:22.579693+00:00","last_reported":"2024-08-04T18:52:22.579693+00:00","last_updated":"2024-08-04T18:52:22.579693+00:00","context":{"id":"01J4FBRK5KK7JAZ059Q6CXQQMZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bubble_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.1.1","in_progress":false,"latest_version":"v2.1.1","release_summary":null,"release_url":"https://github.com/Clooos/Bubble-Card/releases/v2.1.1","skipped_version":null,"title":null,"friendly_name":"Bubble Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.580489+00:00","last_reported":"2024-08-04T18:52:22.580489+00:00","last_updated":"2024-08-04T18:52:22.580489+00:00","context":{"id":"01J4FBRK5M59SK6Z17KJ49FN31","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.34.0","in_progress":false,"latest_version":"1.34.0","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/1.34.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2024-08-04T18:52:22.581224+00:00","last_reported":"2024-08-04T18:52:22.581224+00:00","last_updated":"2024-08-04T18:52:22.581224+00:00","context":{"id":"01J4FBRK5N7NSEFTS4CDYMRDDA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.0.0","in_progress":false,"latest_version":"v4.0.0","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v4.0.0","skipped_version":null,"title":null,"friendly_name":"Mushroom update","supported_features":23},"last_changed":"2024-08-04T18:52:22.581943+00:00","last_reported":"2024-08-04T18:52:22.581943+00:00","last_updated":"2024-08-04T18:52:22.581943+00:00","context":{"id":"01J4FBRK5N6B05AS5G4D5VRBHW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.badge_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"5bf6f72","in_progress":false,"latest_version":"5bf6f72","release_summary":null,"release_url":"https://github.com/thomasloven/lovelace-badge-card","skipped_version":null,"title":null,"friendly_name":"badge-card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.582779+00:00","last_reported":"2024-08-04T18:52:22.582779+00:00","last_updated":"2024-08-04T18:52:22.582779+00:00","context":{"id":"01J4FBRK5PGQX4NVV10TSN0YGP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.kiosk_mode_update","state":"off","attributes":{"auto_update":false,"installed_version":"v6.1.0","in_progress":false,"latest_version":"v6.1.0","release_summary":null,"release_url":"https://github.com/NemesisRE/kiosk-mode/releases/v6.1.0","skipped_version":null,"title":null,"friendly_name":"Kiosk Mode update","supported_features":23},"last_changed":"2024-08-04T18:52:22.583482+00:00","last_reported":"2024-08-04T18:52:22.583482+00:00","last_updated":"2024-08-04T18:52:22.583482+00:00","context":{"id":"01J4FBRK5QA1YS4W7YX7DTPY43","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.air_visual_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.0.3","in_progress":false,"latest_version":"2.0.3","release_summary":null,"release_url":"https://github.com/dnguyen800/air-visual-card/releases/2.0.3","skipped_version":null,"title":null,"friendly_name":"Air Visual Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.584160+00:00","last_reported":"2024-08-04T18:52:22.584160+00:00","last_updated":"2024-08-04T18:52:22.584160+00:00","context":{"id":"01J4FBRK5RWYGCA6NS9XM4N46R","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.xiaomi_miot_auto_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.7.19","in_progress":false,"latest_version":"v0.7.19","release_summary":null,"release_url":"https://github.com/al-one/hass-xiaomi-miot/releases/v0.7.19","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/xiaomi_miot/icon.png","friendly_name":"Xiaomi Miot Auto update","supported_features":23},"last_changed":"2024-08-04T18:52:22.584864+00:00","last_reported":"2024-08-04T18:52:22.584864+00:00","last_updated":"2024-08-04T18:52:22.584864+00:00","context":{"id":"01J4FBRK5RQAQGW7VCF1891EH6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.canvas_gauge_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.91","in_progress":false,"latest_version":"0.91","release_summary":null,"release_url":"https://github.com/custom-cards/canvas-gauge-card/releases/0.91","skipped_version":null,"title":null,"friendly_name":"Canvas Gauge Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.585453+00:00","last_reported":"2024-08-04T18:52:22.585453+00:00","last_updated":"2024-08-04T18:52:22.585453+00:00","context":{"id":"01J4FBRK5SNSKE7D1H9MWJKESY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.hubitat_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.9.31","in_progress":false,"latest_version":"v0.9.31","release_summary":"<ha-alert alert-type='error'>Restart of Home Assistant required</ha-alert>","release_url":"https://github.com/jason0x43/hacs-hubitat/releases/v0.9.31","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hubitat/icon.png","friendly_name":"Hubitat update","supported_features":23},"last_changed":"2024-08-04T18:52:22.586086+00:00","last_reported":"2024-08-04T18:52:22.586086+00:00","last_updated":"2024-08-04T18:52:22.586086+00:00","context":{"id":"01J4FBRK5TB0QZ694RD9G27DZ0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.local_conditional_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.1.0","in_progress":false,"latest_version":"v2.1.0","release_summary":null,"release_url":"https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Local-Conditional-card/releases/v2.1.0","skipped_version":null,"title":null,"friendly_name":"Local Conditional card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.586717+00:00","last_reported":"2024-08-04T18:52:22.586717+00:00","last_updated":"2024-08-04T18:52:22.586717+00:00","context":{"id":"01J4FBRK5TH98S5EZEQPHSYT1E","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.canary_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.5.0","in_progress":false,"latest_version":"v0.5.0","release_summary":null,"release_url":"https://github.com/jcwillox/lovelace-canary/releases/v0.5.0","skipped_version":null,"title":null,"friendly_name":"Canary update","supported_features":23},"last_changed":"2024-08-04T18:52:22.587299+00:00","last_reported":"2024-08-04T18:52:22.587299+00:00","last_updated":"2024-08-04T18:52:22.587299+00:00","context":{"id":"01J4FBRK5VBHQMN46TBGXD83T6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.layout_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.4.5","in_progress":false,"latest_version":"v2.4.5","release_summary":null,"release_url":"https://github.com/thomasloven/lovelace-layout-card/releases/v2.4.5","skipped_version":null,"title":null,"friendly_name":"layout-card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.589142+00:00","last_reported":"2024-08-04T18:52:22.589142+00:00","last_updated":"2024-08-04T18:52:22.589142+00:00","context":{"id":"01J4FBRK5XQ4PTSQ7HSHNKMZ8A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.slider_entity_row_update","state":"off","attributes":{"auto_update":false,"installed_version":"17.4.1","in_progress":false,"latest_version":"17.4.1","release_summary":null,"release_url":"https://github.com/thomasloven/lovelace-slider-entity-row/releases/17.4.1","skipped_version":null,"title":null,"friendly_name":"slider-entity-row update","supported_features":23},"last_changed":"2024-08-04T18:52:22.589796+00:00","last_reported":"2024-08-04T18:52:22.589796+00:00","last_updated":"2024-08-04T18:52:22.589796+00:00","context":{"id":"01J4FBRK5XFGPCASW61J344Q2B","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ui_lovelace_minimalist_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.3.10","in_progress":false,"latest_version":"v1.3.10","release_summary":null,"release_url":"https://github.com/UI-Lovelace-Minimalist/UI/releases/v1.3.10","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/ui_lovelace_minimalist/icon.png","friendly_name":"UI Lovelace Minimalist update","supported_features":23},"last_changed":"2024-08-04T18:52:22.590418+00:00","last_reported":"2024-08-04T18:52:22.590418+00:00","last_updated":"2024-08-04T18:52:22.590418+00:00","context":{"id":"01J4FBRK5Y7QHB4PSK7VFMGEXP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.group_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.0.6","in_progress":false,"latest_version":"0.0.6","release_summary":null,"release_url":"https://github.com/custom-cards/group-card/releases/0.0.6","skipped_version":null,"title":null,"friendly_name":"group-card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.592969+00:00","last_reported":"2024-08-04T18:52:22.592969+00:00","last_updated":"2024-08-04T18:52:22.592969+00:00","context":{"id":"01J4FBRK60YNDZ6N3QTK78M4HY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.logic_chekr_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.07.03","in_progress":false,"latest_version":"2024.07.03","release_summary":null,"release_url":"https://github.com/SirGoodenough/Logic-Chekr/releases/2024.07.03","skipped_version":null,"title":null,"friendly_name":"Logic Chekr update","supported_features":23},"last_changed":"2024-08-04T18:52:22.597025+00:00","last_reported":"2024-08-04T18:52:22.597025+00:00","last_updated":"2024-08-04T18:52:22.597025+00:00","context":{"id":"01J4FBRK65XC9R9G07D3F41BN4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.availability_template_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.07.03","in_progress":false,"latest_version":"2024.07.03","release_summary":null,"release_url":"https://github.com/SirGoodenough/Availability-Template/releases/2024.07.03","skipped_version":null,"title":null,"friendly_name":"Availability Template update","supported_features":23},"last_changed":"2024-08-04T18:52:22.597815+00:00","last_reported":"2024-08-04T18:52:22.597815+00:00","last_updated":"2024-08-04T18:52:22.597815+00:00","context":{"id":"01J4FBRK65YP568MTZTDHJ916E","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.zha_network_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"b6b05fa","in_progress":false,"latest_version":"b6b05fa","release_summary":null,"release_url":"https://github.com/dmulcahey/zha-network-card","skipped_version":null,"title":null,"friendly_name":"Zha Network Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.598460+00:00","last_reported":"2024-08-04T18:52:22.598460+00:00","last_updated":"2024-08-04T18:52:22.598460+00:00","context":{"id":"01J4FBRK66K4VBAJZMHY6STCJY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.room_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.08.04","in_progress":false,"latest_version":"1.08.04","release_summary":null,"release_url":"https://github.com/marcokreeft87/room-card/releases/1.08.04","skipped_version":null,"title":null,"friendly_name":"Room Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.599072+00:00","last_reported":"2024-08-04T18:52:22.599072+00:00","last_updated":"2024-08-04T18:52:22.599072+00:00","context":{"id":"01J4FBRK67V21H03M98FKTKB53","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.vacuum_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.10.1","in_progress":false,"latest_version":"v2.10.1","release_summary":null,"release_url":"https://github.com/denysdovhan/vacuum-card/releases/v2.10.1","skipped_version":null,"title":null,"friendly_name":"Vacuum Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.599677+00:00","last_reported":"2024-08-04T18:52:22.599677+00:00","last_updated":"2024-08-04T18:52:22.599677+00:00","context":{"id":"01J4FBRK6704KV5JT4W3DSED7K","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.html_jinja2_template_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.2","in_progress":false,"latest_version":"v1.0.2","release_summary":null,"release_url":"https://github.com/PiotrMachowski/Home-Assistant-Lovelace-HTML-Jinja2-Template-card/releases/v1.0.2","skipped_version":null,"title":null,"friendly_name":"HTML Jinja2 Template card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.600266+00:00","last_reported":"2024-08-04T18:52:22.600266+00:00","last_updated":"2024-08-04T18:52:22.600266+00:00","context":{"id":"01J4FBRK68NS55NWVDKTVZ9S41","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.config_template_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.3.6","in_progress":false,"latest_version":"1.3.6","release_summary":null,"release_url":"https://github.com/iantrich/config-template-card/releases/1.3.6","skipped_version":null,"title":null,"friendly_name":"Config Template Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.600861+00:00","last_reported":"2024-08-04T18:52:22.600861+00:00","last_updated":"2024-08-04T18:52:22.600861+00:00","context":{"id":"01J4FBRK68EGFWWSDQQEJ2XNQS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.logbook_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.5.5","in_progress":false,"latest_version":"2.5.5","release_summary":null,"release_url":"https://github.com/royto/logbook-card/releases/2.5.5","skipped_version":null,"title":null,"friendly_name":"Logbook Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.601419+00:00","last_reported":"2024-08-04T18:52:22.601419+00:00","last_updated":"2024-08-04T18:52:22.601419+00:00","context":{"id":"01J4FBRK69W0X6XBVGT8Y8NVX3","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.caule_themes_pack_1_by_caule_studio_update","state":"off","attributes":{"auto_update":false,"installed_version":"v.1.3.3","in_progress":false,"latest_version":"v.1.3.3","release_summary":null,"release_url":"https://github.com/ricardoquecria/caule-themes-pack-1/releases/v.1.3.3","skipped_version":null,"title":null,"friendly_name":"Caule Themes Pack 1 - by caule.studio update","supported_features":23},"last_changed":"2024-08-04T18:52:22.602010+00:00","last_reported":"2024-08-04T18:52:22.602010+00:00","last_updated":"2024-08-04T18:52:22.602010+00:00","context":{"id":"01J4FBRK6AFGY6D66E7TC17CGN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.auto_fan_speed_controller_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.4","in_progress":false,"latest_version":"v1.0.4","release_summary":null,"release_url":"https://github.com/UbhiTS/ad-autofanspeed/releases/v1.0.4","skipped_version":null,"title":null,"friendly_name":"Auto 'Fan Speed' Controller 🐔 update","supported_features":23},"last_changed":"2024-08-04T18:52:22.607944+00:00","last_reported":"2024-08-04T18:52:22.607944+00:00","last_updated":"2024-08-04T18:52:22.607944+00:00","context":{"id":"01J4FBRK6FKR6M9Q1DE66NNW56","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bring_back_group_all_x_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.3.1","in_progress":false,"latest_version":"v0.3.1","release_summary":null,"release_url":"https://github.com/nickneos/Bring-Back-group.all_x/releases/v0.3.1","skipped_version":null,"title":null,"friendly_name":"Bring Back group.all_x update","supported_features":23},"last_changed":"2024-08-04T18:52:22.608589+00:00","last_reported":"2024-08-04T18:52:22.608589+00:00","last_updated":"2024-08-04T18:52:22.608589+00:00","context":{"id":"01J4FBRK6GZRDDJ11CWCGBDJ5G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mini_humidifier_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.1.5","in_progress":false,"latest_version":"v3.1.5","release_summary":null,"release_url":"https://github.com/artem-sedykh/mini-humidifier/releases/v3.1.5","skipped_version":null,"title":null,"friendly_name":"mini humidifier update","supported_features":23},"last_changed":"2024-08-04T18:52:22.609199+00:00","last_reported":"2024-08-04T18:52:22.609199+00:00","last_updated":"2024-08-04T18:52:22.609199+00:00","context":{"id":"01J4FBRK6HMMZKSFE9VHSHPT5V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.smartthinq_lge_sensors_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.39.2","in_progress":false,"latest_version":"v0.39.2","release_summary":null,"release_url":"https://github.com/ollo69/ha-smartthinq-sensors/releases/v0.39.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/smartthinq_sensors/icon.png","friendly_name":"SmartThinQ LGE Sensors update","supported_features":23},"last_changed":"2024-08-04T18:52:22.609827+00:00","last_reported":"2024-08-04T18:52:22.609827+00:00","last_updated":"2024-08-04T18:52:22.609827+00:00","context":{"id":"01J4FBRK6HSJAGHFQ85ZQB6RHY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.xiaomi_cloud_map_extractor_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.2.1","in_progress":false,"latest_version":"v2.2.1","release_summary":null,"release_url":"https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor/releases/v2.2.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/xiaomi_cloud_map_extractor/icon.png","friendly_name":"Xiaomi Cloud Map Extractor update","supported_features":23},"last_changed":"2024-08-04T18:52:22.610407+00:00","last_reported":"2024-08-04T18:52:22.610407+00:00","last_updated":"2024-08-04T18:52:22.610407+00:00","context":{"id":"01J4FBRK6JX35VCSYSEMJPQ24N","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mercedesme_2020_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.16.0","in_progress":false,"latest_version":"v0.16.0","release_summary":null,"release_url":"https://github.com/ReneNulschDE/mbapi2020/releases/v0.16.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/mbapi2020/icon.png","friendly_name":"MercedesME 2020 update","supported_features":23},"last_changed":"2024-08-04T18:52:22.611036+00:00","last_reported":"2024-08-04T18:52:22.611036+00:00","last_updated":"2024-08-04T18:52:22.611036+00:00","context":{"id":"01J4FBRK6KGSY0ERXNYPH8N5BC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mercedes_me_api_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.13","in_progress":false,"latest_version":"v0.13","release_summary":"<ha-alert alert-type='error'>Restart of Home Assistant required</ha-alert>","release_url":"https://github.com/xraver/mercedes_me_api/releases/v0.13","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/mercedesmeapi/icon.png","friendly_name":"Mercedes Me API update","supported_features":23},"last_changed":"2024-08-04T18:52:22.621641+00:00","last_reported":"2024-08-04T18:52:22.622020+00:00","last_updated":"2024-08-04T18:52:22.621641+00:00","context":{"id":"01J4FBRK6X65J0M4WM9HPRTD2M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.default_dashboard_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.1.1","in_progress":false,"latest_version":"1.1.1","release_summary":null,"release_url":"https://github.com/daredoes/default-dashboard/releases/1.1.1","skipped_version":null,"title":null,"friendly_name":"Default Dashboard update","supported_features":23},"last_changed":"2024-08-04T18:52:22.622791+00:00","last_reported":"2024-08-04T18:52:22.622791+00:00","last_updated":"2024-08-04T18:52:22.622791+00:00","context":{"id":"01J4FBRK6YJZ89APB543Z1AVJX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.timer_bar_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.30.2","in_progress":false,"latest_version":"v1.30.2","release_summary":null,"release_url":"https://github.com/rianadon/timer-bar-card/releases/v1.30.2","skipped_version":null,"title":null,"friendly_name":"Timer Bar Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.623448+00:00","last_reported":"2024-08-04T18:52:22.623448+00:00","last_updated":"2024-08-04T18:52:22.623448+00:00","context":{"id":"01J4FBRK6Z8ZJKQ6467M8A23BC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.power_wheel_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.1.5","in_progress":false,"latest_version":"v0.1.5","release_summary":null,"release_url":"https://github.com/gurbyz/power-wheel-card/releases/v0.1.5","skipped_version":null,"title":null,"friendly_name":"Power wheel card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.624070+00:00","last_reported":"2024-08-04T18:52:22.624070+00:00","last_updated":"2024-08-04T18:52:22.624070+00:00","context":{"id":"01J4FBRK70WZ62R8YRE7S4P28B","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.dark_theme_pack_for_home_assistant_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.2.1","in_progress":false,"latest_version":"v1.2.1","release_summary":null,"release_url":"https://github.com/awolkers/home-assistant-themes/releases/v1.2.1","skipped_version":null,"title":null,"friendly_name":"Dark Theme Pack for Home Assistant update","supported_features":23},"last_changed":"2024-08-04T18:52:22.624671+00:00","last_reported":"2024-08-04T18:52:22.624671+00:00","last_updated":"2024-08-04T18:52:22.624671+00:00","context":{"id":"01J4FBRK705XC4W8YQXCPQWDG8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.dreame_vacuum_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.4","in_progress":false,"latest_version":"v1.0.4","release_summary":null,"release_url":"https://github.com/Tasshack/dreame-vacuum/releases/v1.0.4","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/dreame_vacuum/icon.png","friendly_name":"Dreame Vacuum update","supported_features":23},"last_changed":"2024-08-04T18:52:22.625381+00:00","last_reported":"2024-08-04T18:52:22.625381+00:00","last_updated":"2024-08-04T18:52:22.625381+00:00","context":{"id":"01J4FBRK71K5EMKVAAMCKESXBW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_themes_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.0.9","in_progress":false,"latest_version":"v0.0.9","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom-themes/releases/v0.0.9","skipped_version":null,"title":null,"friendly_name":"Mushroom Themes update","supported_features":23},"last_changed":"2024-08-04T18:52:22.626252+00:00","last_reported":"2024-08-04T18:52:22.626252+00:00","last_updated":"2024-08-04T18:52:22.626252+00:00","context":{"id":"01J4FBRK72577A0MQG4142HZDD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.switchbot_remote_ir_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.2.2","in_progress":false,"latest_version":"1.2.2","release_summary":null,"release_url":"https://github.com/KiraPC/ha-switchbot-remote/releases/1.2.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/switchbotremote/icon.png","friendly_name":"SwitchBot Remote IR update","supported_features":23},"last_changed":"2024-08-04T18:52:22.626925+00:00","last_reported":"2024-08-04T18:52:22.626925+00:00","last_updated":"2024-08-04T18:52:22.626925+00:00","context":{"id":"01J4FBRK725N4PZSEFZRSKMKPC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.alexa_media_player_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.12.4","in_progress":false,"latest_version":"v4.12.4","release_summary":null,"release_url":"https://github.com/alandtse/alexa_media_player/releases/v4.12.4","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/alexa_media/icon.png","friendly_name":"Alexa Media Player update","supported_features":23},"last_changed":"2024-08-04T18:52:22.627618+00:00","last_reported":"2024-08-04T18:52:22.627618+00:00","last_updated":"2024-08-04T18:52:22.627618+00:00","context":{"id":"01J4FBRK7355C477DETVNP2MJN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.zha_toolkit_service_for_advanced_zigbee_usage_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.1.12","in_progress":false,"latest_version":"v1.1.12","release_summary":null,"release_url":"https://github.com/mdeweerd/zha-toolkit/releases/v1.1.12","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/zha_toolkit/icon.png","friendly_name":"🧰 ZHA Toolkit - Service for advanced Zigbee Usage update","supported_features":23},"last_changed":"2024-08-04T18:52:22.628285+00:00","last_reported":"2024-08-04T18:52:22.628285+00:00","last_updated":"2024-08-04T18:52:22.628285+00:00","context":{"id":"01J4FBRK74Z1T49EVPRM13CH43","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"update.minimalistic_area_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.2.0","in_progress":false,"latest_version":"v1.2.0","release_summary":null,"release_url":"https://github.com/junalmeida/homeassistant-minimalistic-area-card/releases/v1.2.0","skipped_version":null,"title":null,"friendly_name":"Minimalistic Area Card update","supported_features":23},"last_changed":"2024-08-04T18:52:22.628962+00:00","last_reported":"2024-08-04T18:52:22.628962+00:00","last_updated":"2024-08-04T18:52:22.628962+00:00","context":{"id":"01J4FBRK74A91PA7TTZVR8PFFF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:54:55.118412+00:00"
+    },
+    {
+      "state": {"entity_id":"select.assist_microphone_assist_pipeline","state":"preferred","attributes":{"options":["preferred","Home Assistant"],"friendly_name":"assist microphone Assist-Pipeline"},"last_changed":"2024-08-04T16:38:24.436225+00:00","last_reported":"2024-08-04T16:38:24.436225+00:00","last_updated":"2024-08-04T16:38:24.436225+00:00","context":{"id":"01J4F439DMP1ET9PM4N1PFHA00","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:37:38.680401+00:00"
+    },
+    {
+      "state": {"entity_id":"select.assist_microphone_pegel_der_rauschunterdruckung","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"assist microphone Pegel der Rauschunterdrückung"},"last_changed":"2024-08-04T16:38:24.436506+00:00","last_reported":"2024-08-04T16:38:24.436506+00:00","last_updated":"2024-08-04T16:38:24.436506+00:00","context":{"id":"01J4F439DMK8X4K72W4AMZX84C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:37:38.680981+00:00"
+    },
+    {
+      "state": {"entity_id":"select.assist_microphone_finished_speaking_detection","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"assist microphone Zu Ende gesprochen Erkennung"},"last_changed":"2024-08-04T16:38:24.437017+00:00","last_reported":"2024-08-04T16:38:24.437017+00:00","last_updated":"2024-08-04T16:38:24.437017+00:00","context":{"id":"01J4F439DN42Y6YRPPBTJ28KKY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:37:38.681400+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.assist_microphone_stummschalten","state":"off","attributes":{"friendly_name":"assist microphone Stummschalten"},"last_changed":"2024-08-04T16:38:24.437520+00:00","last_reported":"2024-08-04T16:38:24.437520+00:00","last_updated":"2024-08-04T16:38:24.437520+00:00","context":{"id":"01J4F439DN38ZACDFBSK1K3Z2Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T18:37:38.681889+00:00"
+    },
+    {
+      "state": {"entity_id":"number.assist_microphone_automatische_verstarkung","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"assist microphone Automatische Verstärkung"},"last_changed":"2024-08-04T16:38:24.438077+00:00","last_reported":"2024-08-04T16:38:24.438170+00:00","last_updated":"2024-08-04T16:38:24.438077+00:00","context":{"id":"01J4F439DPQ8SS658A1EZ4TBCC","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 31,
+        "native_min_value": 0,
+        "native_step": null,
+        "native_unit_of_measurement": null,
+        "native_value": 0
+      },
+      "last_seen": "2024-08-04T18:37:38.682340+00:00"
+    },
+    {
+      "state": {"entity_id":"number.assist_microphone_mikrofon_lautstarke","state":"1.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"assist microphone Mikrofon-Lautstärke"},"last_changed":"2024-08-04T16:38:24.438406+00:00","last_reported":"2024-08-04T16:38:24.438488+00:00","last_updated":"2024-08-04T16:38:24.438406+00:00","context":{"id":"01J4F439DPJ8PC5NF9GBBQZHM5","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 10.0,
+        "native_min_value": 0.1,
+        "native_step": 0.1,
+        "native_unit_of_measurement": null,
+        "native_value": 1.0
+      },
+      "last_seen": "2024-08-04T18:37:38.682779+00:00"
+    },
+    {
+      "state": {"entity_id":"update.glances_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.21.1","in_progress":false,"latest_version":"0.21.1","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.4 @renovate ([#451](https://github.com/hassio-addons/addon-glances/pull/451))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.5 @renovate ([","release_url":null,"skipped_version":null,"title":"Glances","entity_picture":"/api/hassio/addons/a0d7b954_glances/icon","friendly_name":"Glances Update","supported_features":25},"last_changed":"2024-08-04T00:32:46.590374+00:00","last_reported":"2024-08-04T00:32:46.590374+00:00","last_updated":"2024-08-04T00:32:46.590374+00:00","context":{"id":"01J4DCV5FYQQS7Y6M6CEKJ2Y3Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T01:02:46.325194+00:00"
+    },
+    {
+      "state": {"entity_id":"update.deconz_update","state":"off","attributes":{"auto_update":false,"installed_version":"6.23.0","in_progress":false,"latest_version":"6.23.0","release_summary":"# Changelog\n\n## 6.23.0\n\n- Bump deCONZ to 2.25.3\n\n## 6.22.0\n\n- Revert deCONZ to 2.22.2 due to a Phoscon bug: https://forum.phoscon.de/t/phoscon-de-pwa-login-html-does-not-work-anymore/3967\n\n## 6.21.0\n\n- Bump deCONZ to 2.23.1\n\n## 6.20.0\n\n- Bump deCONZ to 2.","release_url":null,"skipped_version":null,"title":"deCONZ","entity_picture":"/api/hassio/addons/core_deconz/icon","friendly_name":"deCONZ Update","supported_features":25},"last_changed":"2024-08-04T00:32:46.591169+00:00","last_reported":"2024-08-04T00:32:46.591169+00:00","last_updated":"2024-08-04T00:32:46.591169+00:00","context":{"id":"01J4DCV5FZQD58P2P1KHNK5EBW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-04T01:02:46.325778+00:00"
+    },
+    {
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"installed_version":"18.0.0","in_progress":false,"latest_version":"18.0.0","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix procps -> procps-ng @frenck ([#738](https://github.com/hassio-addons/addon-ssh/pull/738))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_19/git to v2.43.4-r0 @renovate ([#734](https://github.com/hassio-addons/addo","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-07-31T20:05:08.837976+00:00","last_reported":"2024-07-31T20:05:08.838426+00:00","last_updated":"2024-07-31T20:05:08.837976+00:00","context":{"id":"01J456AZ359XP7MT4FTSFKQM37","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-31T22:35:08.990621+00:00"
+    },
+    {
+      "state": {"entity_id":"update.silicon_labs_multiprotocol_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.4.5","in_progress":false,"latest_version":"2.4.5","release_summary":"# Changelog\n\n## 2.4.5\n- Support Home Assistant Connect ZBT-1.\n\n## 2.4.4\n- Revert back to Silicon Labs Gecko SDK 4.3.1 while 4.4.0 instability is investigated.\n- Backport firmware modifications for improved stability.\n- Bump universal SiLabs flasher to 0.0","release_url":null,"skipped_version":null,"title":"Silicon Labs Multiprotocol","entity_picture":"/api/hassio/addons/core_silabs_multiprotocol/icon","friendly_name":"Silicon Labs Multiprotocol Update","supported_features":25},"last_changed":"2024-08-01T00:10:44.909668+00:00","last_reported":"2024-08-01T00:10:44.909841+00:00","last_updated":"2024-08-01T00:10:44.909668+00:00","context":{"id":"01J45MCNSDKBYRMKZQ0V7E8D8M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-01T00:15:44.996868+00:00"
+    }
+  ]
+}

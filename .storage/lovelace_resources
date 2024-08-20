@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "id": "cded9c964b094c7e8044e5e1ba64f967",
+        "url": "/hacsfiles/air-visual-card/air-visual-card.js?hacstag=157674859203",
+        "type": "module"
+      },
+      {
+        "id": "677ffa3d01a54b20b2406ca779592547",
+        "url": "/hacsfiles/room-card/room-card.js?hacstag=45444094910804",
+        "type": "module"
+      },
+      {
+        "id": "bf84246d6d6744659b52dd44e5e5c2b9",
+        "url": "/hacsfiles/vacuum-card/vacuum-card.js?hacstag=2612912952101",
+        "type": "module"
+      },
+      {
+        "id": "37035cc20bc3400aab464a5e792a43d8",
+        "url": "/hacsfiles/canvas-gauge-card/canvas-gauge-card.js?hacstag=142545838091",
+        "type": "module"
+      },
+      {
+        "id": "36cece2a08154a209484949672d40aa3",
+        "url": "/hacsfiles/Home-Assistant-Lovelace-HTML-Jinja2-Template-card/html-template-card.js?hacstag=205261230102",
+        "type": "module"
+      },
+      {
+        "id": "bebe78b2110644f9b527a5c2b5fe8809",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375400",
+        "type": "module"
+      },
+      {
+        "id": "c7b374a86da249e9ac255ba0bd548ff8",
+        "url": "/hacsfiles/homeassistant-minimalistic-area-card/minimalistic-area-card.js?hacstag=489457357120",
+        "type": "module"
+      },
+      {
+        "id": "bbfd5072279b4dbf80c645e29c771ced",
+        "url": "/hacsfiles/power-wheel-card/power-wheel-card.js?hacstag=160042309015",
+        "type": "module"
+      },
+      {
+        "id": "c52a9fe6c78a4923afe21cdd6274a748",
+        "url": "/hacsfiles/Home-Assistant-Lovelace-Local-Conditional-card/local-conditional-card.js?hacstag=218178802210",
+        "type": "module"
+      },
+      {
+        "id": "c1cb1b39189d4bf5bf4e371bb694410d",
+        "url": "/hacsfiles/logbook-card/logbook-card.js?hacstag=216008446255",
+        "type": "module"
+      },
+      {
+        "id": "3e11e17cd7f244699a69e79fa4a7ac8e",
+        "url": "/hacsfiles/mini-humidifier/mini-humidifier-bundle.js?hacstag=253019926315",
+        "type": "module"
+      },
+      {
+        "id": "39fe62fc3bcb4470ba8146bb8e28dd86",
+        "url": "/hacsfiles/lovelace-badge-card/badge-card.js?hacstag=2814536085672",
+        "type": "module"
+      },
+      {
+        "id": "5f8f3ced84b642188de74dce5066ac82",
+        "url": "/hacsfiles/zha-network-card/zha-network-card.js?hacstag=197929015605",
+        "type": "module"
+      },
+      {
+        "id": "e38e6c54ce7942efb51c296007d442cb",
+        "url": "/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128610",
+        "type": "module"
+      },
+      {
+        "id": "298a3f393e1e4c889f5538a1197882eb",
+        "url": "/hacsfiles/config-template-card/config-template-card.js?hacstag=172177543136",
+        "type": "module"
+      },
+      {
+        "id": "42a9e0e4ea414a57b2a0c720743975e8",
+        "url": "/hacsfiles/default-dashboard/default-dashboard.js?hacstag=567030726111",
+        "type": "module"
+      },
+      {
+        "id": "e855b0da11be434c9ecf6e65e093cf12",
+        "url": "/hacsfiles/lovelace-canary/canary.js?hacstag=245159052050",
+        "type": "module"
+      },
+      {
+        "id": "d0019946ee7946de93d7bd30f3c12fe0",
+        "url": "/hacsfiles/timer-bar-card/timer-bar-card.js?hacstag=3769045171302",
+        "type": "module"
+      },
+      {
+        "id": "4c44bb84a77b46fdaa6460d3bee17553",
+        "url": "/hacsfiles/group-card/group-card.js?hacstag=187245511006",
+        "type": "module"
+      },
+      {
+        "id": "e12cd2e47abb4eb2ae8252e6e146e560",
+        "url": "/hacsfiles/lovelace-layout-card/layout-card.js?hacstag=156434866245",
+        "type": "module"
+      },
+      {
+        "id": "2cda0d33c61a4b3c9269bb1abf964d45",
+        "url": "/hacsfiles/lovelace-slider-entity-row/slider-entity-row.js?hacstag=1448997001741",
+        "type": "module"
+      }
+    ]
+  }
+}

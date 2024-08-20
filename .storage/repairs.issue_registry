@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "repairs.issue_registry",
+  "data": {
+    "issues": [
+      {
+        "created": "2024-08-04T00:37:45.188672+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_299753146_tags/v2.2.1"
+      },
+      {
+        "created": "2024-08-04T00:38:56.080326+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_544426802_tags/v1.0.4"
+      },
+      {
+        "created": "2024-08-04T00:40:27.883907+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_325755578_tags/v0.16.0"
+      },
+      {
+        "created": "2024-08-04T00:41:54.423822+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_413798425_tags/v1.3.10"
+      },
+      {
+        "created": "2024-08-04T00:46:30.394758+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_661342098_tags/1.2.2"
+      },
+      {
+        "created": "2024-08-04T01:14:53.172039+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_448980525_tags/v1.1.12"
+      },
+      {
+        "created": "2024-08-04T13:38:56.206288+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_223993584_tags/12.14.0"
+      },
+      {
+        "created": "2024-08-04T18:50:46.505404+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_235943258_tags/v0.9.31"
+      },
+      {
+        "created": "2024-08-04T18:52:22.561309+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_299556199_tags/v0.13"
+      }
+    ]
+  }
+}

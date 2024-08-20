@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "map",
+        "icon": "mdi:map",
+        "title": "Karte",
+        "url_path": "map",
+        "mode": "storage",
+        "show_in_sidebar": true,
+        "require_admin": false
+      },
+      {
+        "id": "dashboard_smarthome",
+        "show_in_sidebar": true,
+        "icon": "mdi:home-automation",
+        "title": "SmartHome",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-smarthome"
+      },
+      {
+        "id": "dashboard_test",
+        "show_in_sidebar": false,
+        "title": "test",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-test"
+      }
+    ]
+  }
+}

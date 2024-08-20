@@ -1,0 +1,844 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J454M1JVS5HFNA1VR1BF41VJ",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "hassio",
+        "entry_id": "01J454M1RZSRYBCWK0MAWWWWW5",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "title": "Supervisor",
+        "unique_id": "hassio",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "bluetooth",
+        "entry_id": "01J454M4GBY1HVKT1PW9H0GCAA",
+        "minor_version": 1,
+        "modified_at": "2024-08-03T13:21:59.839393+00:00",
+        "options": {
+          "passive": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "title": "Intel Corporate 0a2a (78:92:9C:E1:F6:30)",
+        "unique_id": "78:92:9C:E1:F6:30",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J454RH2JS9MYQ8PYP11RTHX9",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": "user",
+        "domain": "radio_browser",
+        "entry_id": "01J454RH8HC9DD7PYHPBPJZ43S",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J454RHDQ9TR72MGYSTRKXH8M",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01J454RHDV35RJHF1FHC2JYCFA",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "url": "ws://core-matter-server:5580/ws",
+          "use_addon": true,
+          "integration_created_addon": true
+        },
+        "disabled_by": null,
+        "domain": "matter",
+        "entry_id": "01J454TGQTQNKZ4F6CDBDWH2Y5",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Matter",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "dv0cZxrRLEirmZvCTJfP6G:APA91bGR80ixhuQnhbWFpyy7B_mcfQhOqc3-ZQZpSw6762xCt2flIXdBB-4kMnHSRIcnRSjdsEPvGoVF_kJIY1BtnFwnQljylrLZNlxbMByFIYM_65e8XjY4vafWiZVJs41NITguhysI"
+          },
+          "os_version": "18.0",
+          "device_id": "E3D652D4-4259-4D61-AF22-E44751BC1ECE",
+          "app_version": "2024.7 (2024.730)",
+          "os_name": "iOS",
+          "app_name": "Home Assistant",
+          "device_name": "iPhone 14 Pia",
+          "model": "iPhone14,7",
+          "supports_encryption": true,
+          "webhook_id": "73c28d30d547ce571bc702fd05965b4c5a0108595bc33575bf3fbac6991ffee7",
+          "secret": "9cf9c12d91341fd6c95ff236d723f4c6c1f08a8c79ba611bf5a5b67495e1cec1",
+          "user_id": "a4afec288dfa47159bd15a9b0268d633",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J454WJDPSJJP7KQ4VGKZDSVG",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "iPhone 14 Pia",
+        "unique_id": "io.robbie.HomeAssistant-E3D652D4-4259-4D61-AF22-E44751BC1ECE",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "192.168.178.65",
+          "type": "laser"
+        },
+        "disabled_by": null,
+        "domain": "brother",
+        "entry_id": "01J454YNGK9CXBR7JDYQH0G4MP",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "MFC-9332CDW E74554G7J324254",
+        "unique_id": "e74554g7j324254",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "192.168.178.1",
+          "password": "PrinzessinKanicula",
+          "port": 49000,
+          "username": "fritz4358",
+          "ssl": false
+        },
+        "disabled_by": null,
+        "domain": "fritz",
+        "entry_id": "01J4550H5MD6SPEAB73G0FMQ1T",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "consider_home": 180.0,
+          "old_discovery": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "FritzBox-Pia",
+        "unique_id": "123402409-bccb-40e7-8e6c-B0F208FE4D4D",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-9f6c-B0F208FE4D4D",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:75802409-bccb-40e7-9f6c-B0F208FE4D4D",
+          "location": "http://192.168.178.1:49000/igd2desc.xml",
+          "mac_address": "b0:f2:08:fe:4d:4d",
+          "host": "192.168.178.1"
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "01J45561T45EHR2RNA1NY06KFC",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "InternetGatewayDeviceV2 - FritzBox-Pia",
+        "unique_id": "uuid:75802409-bccb-40e7-9f6c-B0F208FE4D4D::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "192.168.178.65",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "Brother MFC-9332CDW",
+          "uuid": "e3248000-80ce-11db-8000-3c2af41f655e"
+        },
+        "disabled_by": null,
+        "domain": "ipp",
+        "entry_id": "01J4556CM80CMN1VN044D3T1A2",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "title": "Brother MFC-9332CDW",
+        "unique_id": "e3248000-80ce-11db-8000-3c2af41f655e",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-B0F208FE4D4D",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-B0F208FE4D4D",
+          "location": "http://192.168.178.1:49000/igddesc.xml",
+          "mac_address": "b0:f2:08:fe:4d:4d",
+          "host": "192.168.178.1"
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "01J45579CZAK6WF0Q2YADW9T07",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "FritzBox-Pia",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-B0F208FE4D4D::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "url": "http://192.168.178.1:49000/MediaServerDevDesc.xml",
+          "device_id": "uuid:fa095ecc-e13e-40e7-8e6c-b0f208fe4d4d::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "fritzbox_pia_mediaserver"
+        },
+        "disabled_by": null,
+        "domain": "dlna_dms",
+        "entry_id": "01J455C5Z2VNP2Z9G8XT6Y3MK2",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "FritzBox-Pia Mediaserver",
+        "unique_id": "uuid:fa095ecc-e13e-40e7-8e6c-b0f208fe4d4d::urn:schemas-upnp-org:device:MediaServer:1",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "time_date",
+        "entry_id": "01J457CV17FKDSEXQDYXGXKBHC",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "display_options": "time"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Time & Date time",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "access_token": "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"
+        },
+        "disabled_by": null,
+        "domain": "github",
+        "entry_id": "01J457H41K457MP8R56GP9J51N",
+        "minor_version": 1,
+        "modified_at": "2024-08-03T13:23:11.618968+00:00",
+        "options": {
+          "repositories": []
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "config_flow_device": "device",
+          "host": "192.168.178.76",
+          "token": "4647484e6b336c524f536c7965564237",
+          "model": "chuangmi.plug.v1",
+          "mac": "60:7e:a4:1b:eb:56",
+          "cloud_username": "pialohmeyer@icloud.com",
+          "cloud_password": "Heyli%1994",
+          "cloud_country": "de"
+        },
+        "disabled_by": "user",
+        "domain": "xiaomi_miio",
+        "entry_id": "01J4585TXE56F56TXDG2PD5YVC",
+        "minor_version": 1,
+        "modified_at": "2024-08-03T13:27:05.203302+00:00",
+        "options": {
+          "cloud_subdevices": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Mi 360° Home Security Camera 2K",
+        "unique_id": "60:7e:a4:1b:eb:56",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "name": "HASS Bridge",
+          "exclude_accessory_mode": true,
+          "port": 21064
+        },
+        "disabled_by": "user",
+        "domain": "homekit",
+        "entry_id": "01J45FFBNMHS5MEPPCBQN8AET1",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "filter": {
+            "include_domains": [
+              "alarm_control_panel",
+              "climate",
+              "cover",
+              "humidifier",
+              "fan",
+              "light",
+              "lock",
+              "media_player",
+              "remote",
+              "switch",
+              "vacuum",
+              "water_heater"
+            ],
+            "include_entities": [],
+            "exclude_domains": [],
+            "exclude_entities": []
+          },
+          "mode": "bridge"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "HASS Bridge:21064",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "hostname": "myip.opendns.com",
+          "name": "myip",
+          "ipv4": true,
+          "ipv6": true
+        },
+        "disabled_by": null,
+        "domain": "dnsip",
+        "entry_id": "01J45H1NN38MR030N03VGV40TD",
+        "minor_version": 2,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "resolver": "208.67.222.222",
+          "port": 53,
+          "resolver_ipv6": "2620:119:53::53",
+          "port_ipv6": 53
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "myip",
+        "unique_id": "myip.opendns.com",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "name": "Home Assistant",
+          "listen_port": 8060
+        },
+        "disabled_by": null,
+        "domain": "emulated_roku",
+        "entry_id": "01J45H2XT8ZHJ29570S51XHREZ",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Home Assistant",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "nmap_tracker",
+        "entry_id": "01J45H5ZJKFBXEHRCHVPTB32GK",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "hosts": "192.168.178.0/24",
+          "home_interval": 0,
+          "exclude": "192.168.178.63",
+          "scan_options": "-F -T4 --min-rate 10 --host-timeout 5s"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Nmap Tracker 192.168.178.0/24",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-01T00:23:49.147072+00:00",
+        "data": {
+          "host": "core-assist-microphone",
+          "port": 10700
+        },
+        "disabled_by": "user",
+        "domain": "wyoming",
+        "entry_id": "01J45N4KMVAP6BQ7DEFSZA284W",
+        "minor_version": 1,
+        "modified_at": "2024-08-01T00:23:49.147083+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "title": "Assist Microphone",
+        "unique_id": "0b07973b3a2147939c5c6813a1a03798",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-01T02:50:26.127152+00:00",
+        "data": {
+          "address": "192.168.178.64"
+        },
+        "disabled_by": null,
+        "domain": "apple_tv",
+        "entry_id": "01J45XH2EFH71SMK74AHMTWJSW",
+        "minor_version": 1,
+        "modified_at": "2024-08-01T03:00:04.747655+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "title": "Apple TV Pia (Apple TV 4K)",
+        "unique_id": "96:7E:4E:96:AB:91",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-02T19:37:01.849353+00:00",
+        "data": {
+          "address": "C8:FC:2A:AC:FD:7B",
+          "sensor_type": "hub2"
+        },
+        "disabled_by": null,
+        "domain": "switchbot",
+        "entry_id": "01J4A9GXMS81A32CG5HBG3TWTJ",
+        "minor_version": 1,
+        "modified_at": "2024-08-02T19:37:01.850124+00:00",
+        "options": {
+          "retry_count": 3
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "title": "Hub 2 FD7B",
+        "unique_id": "c8fc2aacfd7b",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-02T19:38:59.540533+00:00",
+        "data": {
+          "app_name": "Home Assistant",
+          "os_version": "18.0",
+          "supports_encryption": true,
+          "app_id": "io.robbie.HomeAssistant",
+          "device_name": "iPhone 11 Pia",
+          "app_data": {
+            "push_token": "dJNIX07r3ECFvIMl9gWVqM:APA91bEk6-RDbIVPQxrfsuFADSDI27dmuotg3tAXELjDLj6QiFgukbFz-UnfboeB3kQHYiGOPAkjn9mdLmXZGoPE6w9F4hsbu11zxcJLKf7TYPTM6zw7kZyF66g4mb_eJcem_sQ19rBt",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_version": "2024.7 (2024.730)",
+          "os_name": "iOS",
+          "device_id": "BFA59AB4-9D07-4E79-8BCF-D6BE61697AB4",
+          "manufacturer": "Apple",
+          "model": "iPhone12,1",
+          "webhook_id": "e0b3c176e606c47c07c88e3def51faa8e1c658c8137fe59fbc43b5551cca483f",
+          "secret": "7af6798005b1f3b7e56c6ec9530fe12177027c00516f9258db94f00592c62ede",
+          "user_id": "a4afec288dfa47159bd15a9b0268d633",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J4A9MGJMPV8VZK5CKH4EMQGE",
+        "minor_version": 1,
+        "modified_at": "2024-08-02T19:38:59.655166+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "iPhone 11 Pia",
+        "unique_id": "io.robbie.HomeAssistant-BFA59AB4-9D07-4E79-8BCF-D6BE61697AB4",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-03T17:54:42.557785+00:00",
+        "data": {},
+        "disabled_by": "user",
+        "domain": "systemmonitor",
+        "entry_id": "01J4CP297XTVXG3HV2X0EA09VG",
+        "minor_version": 2,
+        "modified_at": "2024-08-03T17:54:42.557790+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "System Monitor",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T00:34:47.951324+00:00",
+        "data": {
+          "token": "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"
+        },
+        "disabled_by": null,
+        "domain": "hacs",
+        "entry_id": "01J4DCYW0F9KVCPDT3WR597C98",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T01:17:25.686118+00:00",
+        "options": {
+          "sidepanel_title": "HACS",
+          "sidepanel_icon": "hacs:hacs",
+          "release_limit": 5,
+          "country": "ALL",
+          "appdaemon": true,
+          "netdaemon": true,
+          "debug": true,
+          "experimental": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T01:50:12.686557+00:00",
+        "data": {
+          "name": "DreameBot W10",
+          "host": "192.168.178.37",
+          "token": "70677339796372536231685744545355",
+          "username": "pialohmeyer@icloud.com",
+          "password": "Heyli%1994",
+          "country": "de",
+          "mac": "F0:B0:40:56:EA:4F"
+        },
+        "disabled_by": null,
+        "domain": "dreame_vacuum",
+        "entry_id": "01J4DH8YPECKM9TBMG6FABH49H",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T01:50:12.686562+00:00",
+        "options": {
+          "notify": [
+            "cleanup_completed",
+            "consumable",
+            "information",
+            "warning",
+            "error"
+          ],
+          "color_scheme": "Dreame Light",
+          "icon_set": "Dreame",
+          "map_objects": [
+            "color",
+            "icon",
+            "name",
+            "order",
+            "suction_level",
+            "water_volume",
+            "cleaning_times",
+            "cleaning_mode",
+            "path",
+            "no_go",
+            "no_mop",
+            "virtual_wall",
+            "active_area",
+            "active_point",
+            "charger",
+            "robot",
+            "cleaning_direction",
+            "obstacle",
+            "carpet"
+          ],
+          "prefer_cloud": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "DreameBot W10",
+        "unique_id": "f0:b0:40:56:ea:4f",
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T03:12:08.950070+00:00",
+        "data": {
+          "community_cards_enabled": false
+        },
+        "disabled_by": "user",
+        "domain": "ui_lovelace_minimalist",
+        "entry_id": "01J4DNYZQPTQQKSGAKZD56M3ED",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T18:38:31.842036+00:00",
+        "options": {
+          "language": "English (GB)",
+          "sidepanel_enabled": true,
+          "sidepanel_title": "UI Lovelace Minimalist",
+          "sidepanel_icon": "mdi:flower",
+          "adaptive_ui_enabled": true,
+          "adaptive_ui_title": "UI Lovelace Minimalist",
+          "adaptive_ui_icon": "mdi:flower",
+          "theme": "minimalist-desktop",
+          "theme_path": "themes/",
+          "include_other_cards": true,
+          "community_cards_enabled": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T15:48:22.823909+00:00",
+        "data": {
+          "region": "DE",
+          "language": "de-DE",
+          "token": "1609d2269de8beba9d7843826f2a6ebbefc7fc71cf97093232d6cb9fa1d67f01fb88c56d3e45850e152a75f9d75f161b",
+          "use_api_v2": true,
+          "client_id": "fc5bff67d8dfe9d02dca208c7712a280e96a265e4d7b2179f6985ad1177e59b9",
+          "oauth2_url": "https://gb.lgeapi.com/"
+        },
+        "disabled_by": null,
+        "domain": "smartthinq_sensors",
+        "entry_id": "01J4F17P571F7XD2Z3FDMDG5TM",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T15:48:22.823917+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "LGE Devices",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T16:35:21.200994+00:00",
+        "data": {
+          "user_code": "CaauB2T",
+          "token_info": {
+            "t": 1722796645747,
+            "uid": "eu1686529268329auB2T",
+            "expire_time": 7200,
+            "access_token": "6e156309ae904018754672d508211232",
+            "refresh_token": "171e83b4836b8320d0cf1eef3091a8fc"
+          },
+          "terminal_id": "1722789321002dtSHQv",
+          "endpoint": "https://apigw.tuyaeu.com"
+        },
+        "disabled_by": null,
+        "domain": "tuya",
+        "entry_id": "01J4F3XPFGTTJPJTD6G3X7CXP5",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T18:37:25.759903+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "ap-000345.713a3bce0681427b9b37fda240769fd8.0021",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T16:40:50.613487+00:00",
+        "data": {
+          "username": "Pialohmeyer@icloud.com",
+          "password": "Heyli%1994",
+          "server_country": "de",
+          "user_id": "6476012289",
+          "service_token": "+C0Yi4xi0ZBez4obFUA74CK2VMqgRuhKPCRnh7/7YCsEs4NP97ovfL1LlVJWjmVkMguaAyM4u3OXyHojTPLYai4j3v1inxpktOto8wHEpwknHBV0S/juZfLNJokGXihrcHNSExcPx3cHwOwZOQuqsQ7bTK5OJLuOxAGueBsiD5o=",
+          "ssecurity": "l9I/jEzpiDt/bOrOBQ+1NA==",
+          "sid": "xiaomiio",
+          "device_id": "P4732MZ2KIJN0OV9",
+          "conn_mode": "auto",
+          "filter_did": "include",
+          "did_list": [
+            "447823554",
+            "565030469"
+          ],
+          "config_version": 0.3,
+          "disable_message": false,
+          "disable_scene_history": false
+        },
+        "disabled_by": null,
+        "domain": "xiaomi_miot",
+        "entry_id": "01J4F47R5NBEARXFJ6TPZ8GEYA",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T16:41:44.980333+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Xiaomi: 6476012289",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-08-04T18:36:37.242044+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "ble_monitor",
+        "entry_id": "01J4FAVQZSWQCG3EMCX3M1YJ5Y",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T18:36:50.917814+00:00",
+        "options": {
+          "bt_interface": [
+            "78:92:9C:E1:F6:30"
+          ],
+          "bt_auto_restart": false,
+          "active_scan": false,
+          "discovery": true,
+          "use_median": false,
+          "period": 60,
+          "log_spikes": false,
+          "restore_state": false,
+          "report_unknown": "Off",
+          "devices": [],
+          "is_flow": true,
+          "hci_interface": [
+            0
+          ]
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Bluetooth Low Energy Monitor",
+        "unique_id": "01J4FAVQZSWQCG3EMCX3M1YJ5Y",
+        "version": 5
+      },
+      {
+        "created_at": "2024-08-04T18:47:33.249154+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "fritzbox",
+        "entry_id": "01J4FBFRM17W5RQFWD79ANCDVA",
+        "minor_version": 1,
+        "modified_at": "2024-08-04T18:47:33.249162+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "title": "AVM FRITZ!Box: FritzBox-Pia",
+        "unique_id": "123402409-bccb-40e7-8e6c-B0F208FE4D4D",
+        "version": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homekit.01J45FFBNMHS5MEPPCBQN8AET1.aids",
+  "data": {
+    "allocations": {
+      "tuya.climate.tuya.bf9f7ae23534e3af6bclgt": 1680166658,
+      "tuya.climate.tuya.bf4725d138558ab94dq9md": 3778852617,
+      "tuya.climate.tuya.bf1b1367e6551d063bxdgt": 3457695366,
+      "tuya.light.tuya.bfb5acf9aa6c37b225vevsswitch_led": 3104308787,
+      "tuya.light.tuya.bf29d63df7200d61e83o6lswitch_led": 3624666606,
+      "tuya.light.tuya.bf05a7d113e41eb5d9ejxkswitch_led": 2494663540,
+      "tuya.light.tuya.bfe3f1c30218e23cb4weynswitch_led": 276364415,
+      "tuya.switch.tuya.04200408dc4f22315d6bswitch": 3098199821,
+      "xiaomi_miio.switch.60:7e:a4:1b:eb:56-USB-usb": 4199161811,
+      "xiaomi_miio.switch.60:7e:a4:1b:eb:56-mains": 2933820572,
+      "matter.climate.58F5987AE45E38F0-0000000000000002-7-7-MatterThermostat-513-0": 2826837945,
+      "matter.switch.58F5987AE45E38F0-0000000000000002-8-8-MatterPlug-6-0": 1533410052,
+      "switch_as_x.light.01J4C6QBMADCG87SJW3CMCKM9T": 833476266,
+      "dreame_vacuum.vacuum.F0:B0:40:56:EA:4F_dreame_vacuum": 2148598800,
+      "dreame_vacuum.switch.F0:B0:40:56:EA:4F_customized_cleaning": 3983673750,
+      "smartthinq_sensors.switch.DRYER:add0cf40-bb0a-1a92-8719-f8b95a443146-power-switch": 2472142373
+    }
+  }
+}

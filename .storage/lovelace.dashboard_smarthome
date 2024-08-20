@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_smarthome",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "alert_classes": [
+                "motion",
+                "moisture"
+              ],
+              "sensor_classes": [
+                "temperature",
+                "humidity"
+              ],
+              "type": "area",
+              "area": "wohnzimmer",
+              "navigation_path": "/dashboard-smarthome/wz"
+            },
+            {
+              "alert_classes": [
+                "motion",
+                "moisture"
+              ],
+              "sensor_classes": [
+                "temperature",
+                "humidity"
+              ],
+              "type": "area",
+              "area": "hauswirtschaftsraum",
+              "navigation_path": "/dashboard-smarthome/hauswirtschaft"
+            },
+            {
+              "alert_classes": [
+                "motion",
+                "moisture"
+              ],
+              "sensor_classes": [
+                "temperature",
+                "humidity"
+              ],
+              "type": "area",
+              "area": "schlafzimmer",
+              "navigation_path": "/dashboard-smarthome/schlafzimmer"
+            },
+            {
+              "alert_classes": [
+                "motion",
+                "moisture"
+              ],
+              "sensor_classes": [
+                "temperature",
+                "humidity"
+              ],
+              "type": "area",
+              "area": "kuche",
+              "navigation_path": "/dashboard-smarthome/kuche"
+            },
+            {
+              "type": "area",
+              "area": "flur"
+            }
+          ]
+        },
+        {
+          "title": "küche",
+          "path": "kuche",
+          "subview": true,
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "light.kuchenlicht_1",
+                "light.kuchenlicht_2",
+                "light.kuchenlicht_3",
+                "light.kuchenlicht_4"
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "vacuum.dreamebot_w10",
+                    "switch.dreamebot_w10_carpet_boost",
+                    "switch.dreamebot_w10_carpet_recognition",
+                    "select.dreamebot_w10_cleaning_mode",
+                    "sensor.dreame_p2027_ea4f_charging_state",
+                    "sensor.dreamebot_w10_battery_level",
+                    "sensor.dreame_p2027_ea4f_battery_level",
+                    "sensor.dreamebot_w10_charging_status",
+                    "sensor.dreamebot_w10_cleaned_area",
+                    "sensor.dreamebot_w10_state",
+                    "sensor.dreamebot_w10_status"
+                  ]
+                },
+                {
+                  "type": "picture-entity",
+                  "entity": "camera.dreamebot_w10_map"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "schlafzimmer",
+          "path": "schlafzimmer",
+          "subview": true,
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "switch.tischlampe_internet_access"
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.heizung_schlafzimmer_batterie",
+                    "binary_sensor.heizung_schlafzimmer_fenster"
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.heizung_schlafzimmer",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "off",
+                        "heat_cool",
+                        "heat_cool",
+                        "heat"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "wz",
+          "subview": true,
+          "title": "Wohnzimmer",
+          "cards": [
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.heizung_buro1_batterie",
+                    "binary_sensor.heizung_buro1_fenster"
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.heizung_buro1",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "off",
+                        "heat_cool",
+                        "heat_cool",
+                        "heat"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.heizung_wohnzimmer_batterie",
+                    "binary_sensor.heizung_wohnzimmer_fenster"
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.heizung_wohnzimmer",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "off",
+                        "heat_cool",
+                        "heat_cool",
+                        "heat"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.mi_360deg_home_security_camera_2k"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.brother_mfc_9332cdw",
+                "sensor.mfc_9332cdw_status"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "hauswirtschaft",
+          "path": "hauswirtschaft",
+          "subview": true,
+          "cards": [
+            {
+              "type": "custom:room-card"
+            }
+          ]
+        },
+        {
+          "title": "saugroboter",
+          "path": "xxxxxxx",
+          "subview": true,
+          "cards": [
+            {
+              "type": "custom:vacuum-card",
+              "entity": "vacuum.dreamebot_w10",
+              "map": "camera.dreamebot_w10_map"
+            }
+          ]
+        },
+        {
+          "title": "Camera",
+          "path": "camera",
+          "subview": true,
+          "cards": [
+            {
+              "type": "picture-entity",
+              "entity": "camera.chuangmi_029a02_eb56_camera_control"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

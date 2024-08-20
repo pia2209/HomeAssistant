@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "minor_version": 7,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:sofa",
+        "id": "wohnzimmer",
+        "labels": [],
+        "name": "Wohnzimmer",
+        "picture": null,
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:countertop",
+        "id": "kuche",
+        "labels": [],
+        "name": "Küche",
+        "picture": null,
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:bed-queen",
+        "id": "schlafzimmer",
+        "labels": [],
+        "name": "Schlafzimmer",
+        "picture": null,
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:air-humidifier",
+        "id": "hauswirtschaftsraum",
+        "labels": [],
+        "name": "Hauswirtschaft",
+        "picture": null,
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:format-align-center",
+        "id": "flur",
+        "labels": [],
+        "name": "Flur",
+        "picture": null,
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "modified_at": "1970-01-01T00:00:00+00:00"
+      }
+    ]
+  }
+}
