@@ -1,2 +1,3 @@
-My Home Assistant Configuration 
+My Home Assistant Configuration:
+
 Installing on an Intel Nuc
