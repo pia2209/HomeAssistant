@@ -1,0 +1,9 @@
+script:
+  climate_demo_script:
+    alias: "Demo Climate Script"
+    sequence:
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.example
+        data:
+          temperature: 22
