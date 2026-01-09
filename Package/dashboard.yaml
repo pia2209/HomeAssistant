@@ -1,0 +1,8 @@
+# Package: Dashboard (Platzhalter)
+#
+# Lovelace-Dashboards werden oft in der UI (.storage) oder in ui-lovelace.yaml verwaltet.
+# Dieser Package dient als "Anker", damit der Ordner /Package/dashboard/ als Struktur
+# im Repo existiert, ohne laufende Konfiguration zu verändern.
+
+homeassistant:
+  customize: {}

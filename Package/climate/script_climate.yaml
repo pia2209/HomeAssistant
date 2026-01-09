@@ -1,0 +1,28 @@
+# Beispiel-Skripte für Climate
+#
+# Hinweis: Passe die `target.entity_id` auf deine Thermostat-Entitäten an
+# (z.B. climate.wohnzimmer, climate.schlafzimmer, ...).
+
+climate_comfort_mode:
+  alias: "Climate: Komfortmodus"
+  description: "Setzt eine Komfort-Temperatur (Beispiel: 21°C)."
+  mode: single
+  sequence:
+    - service: climate.set_temperature
+      target:
+        entity_id:
+          - climate.wohnzimmer
+      data:
+        temperature: 21
+
+climate_eco_mode:
+  alias: "Climate: Eco-Modus"
+  description: "Setzt eine Eco-Temperatur (Beispiel: 18°C)."
+  mode: single
+  sequence:
+    - service: climate.set_temperature
+      target:
+        entity_id:
+          - climate.wohnzimmer
+      data:
+        temperature: 18

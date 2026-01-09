@@ -1,0 +1,8 @@
+# Package: Climate
+#
+# Dieser Package-Entry liegt absichtlich im Root von /Package,
+# damit Home Assistant ihn per `!include_dir_named Package` laden kann.
+# Die eigentlichen Inhalte liegen darunter in /Package/climate/.
+
+script: !include climate/script_climate.yaml
+automation: !include climate/automation_climate.yaml

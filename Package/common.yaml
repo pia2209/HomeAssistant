@@ -1,0 +1,4 @@
+# Package: Common (Platzhalter für gemeinsame Helfer/Variablen)
+
+homeassistant:
+  customize: {}

@@ -1,0 +1,22 @@
+# Beispiel-Automationen für Climate
+#
+# Diese Automation schaltet nachts auf Eco und morgens auf Komfort.
+# Passe Zeiten sowie Thermostat-Entitäten an.
+
+- id: climate_night_eco
+  alias: "Climate: nachts Eco"
+  mode: single
+  trigger:
+    - platform: time
+      at: "22:30:00"
+  action:
+    - service: script.climate_eco_mode
+
+- id: climate_morning_comfort
+  alias: "Climate: morgens Komfort"
+  mode: single
+  trigger:
+    - platform: time
+      at: "06:30:00"
+  action:
+    - service: script.climate_comfort_mode
