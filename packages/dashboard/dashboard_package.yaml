@@ -1,0 +1,98 @@
+# Dashboard Package
+# Enthält alle Konfigurationen für Dashboard-Elemente
+
+# ============================================
+# INPUT SELECT
+# ============================================
+input_select:
+  dashboard_theme:
+    name: "Dashboard Theme"
+    options:
+      - Minimalist
+      - Mushroom
+      - Dark
+      - Light
+    initial: Minimalist
+    icon: mdi:palette
+
+  dashboard_view:
+    name: "Aktive Ansicht"
+    options:
+      - Übersicht
+      - Räume
+      - Geräte
+      - Einstellungen
+    icon: mdi:view-dashboard
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  dashboard_compact_mode:
+    name: "Kompakter Modus"
+    icon: mdi:view-compact
+
+  dashboard_show_weather:
+    name: "Wetter anzeigen"
+    icon: mdi:weather-cloudy
+
+  dashboard_show_energy:
+    name: "Energie anzeigen"
+    icon: mdi:lightning-bolt
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: dashboard_auto_theme
+    alias: "Dashboard - Automatisches Theme"
+    description: "Wechselt Theme basierend auf Tageszeit"
+    trigger:
+      - platform: sun
+        event: sunset
+    action:
+      - service: input_select.select_option
+        target:
+          entity_id: input_select.dashboard_theme
+        data:
+          option: Dark
+
+  - id: dashboard_morning_theme
+    alias: "Dashboard - Morgen Theme"
+    description: "Wechselt zum hellen Theme am Morgen"
+    trigger:
+      - platform: sun
+        event: sunrise
+    action:
+      - service: input_select.select_option
+        target:
+          entity_id: input_select.dashboard_theme
+        data:
+          option: Light
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  dashboard_reset_view:
+    alias: "Dashboard - Ansicht zurücksetzen"
+    description: "Setzt Dashboard auf Standardansicht zurück"
+    sequence:
+      - service: input_select.select_option
+        target:
+          entity_id: input_select.dashboard_view
+        data:
+          option: Übersicht
+      - service: input_boolean.turn_off
+        target:
+          entity_id: input_boolean.dashboard_compact_mode
+
+  dashboard_toggle_all_widgets:
+    alias: "Dashboard - Alle Widgets umschalten"
+    description: "Schaltet alle Widget-Anzeigen um"
+    sequence:
+      - service: input_boolean.toggle
+        target:
+          entity_id:
+            - input_boolean.dashboard_show_weather
+            - input_boolean.dashboard_show_energy

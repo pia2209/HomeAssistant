@@ -1,0 +1,117 @@
+# Lighting Package
+# Enthält alle Konfigurationen für Beleuchtungssteuerung
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  lighting_automation_enabled:
+    name: "Lichtautomatisierung aktiviert"
+    icon: mdi:lightbulb-auto
+
+  lighting_motion_enabled:
+    name: "Bewegungssteuerung aktiviert"
+    icon: mdi:motion-sensor
+
+  lighting_night_mode:
+    name: "Nachtmodus"
+    icon: mdi:weather-night
+
+# ============================================
+# INPUT NUMBER
+# ============================================
+input_number:
+  lighting_default_brightness:
+    name: "Standard Helligkeit"
+    min: 1
+    max: 100
+    step: 5
+    unit_of_measurement: "%"
+    icon: mdi:brightness-6
+
+  lighting_night_brightness:
+    name: "Nacht Helligkeit"
+    min: 1
+    max: 50
+    step: 5
+    unit_of_measurement: "%"
+    icon: mdi:brightness-4
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: lighting_motion_on
+    alias: "Licht - Bewegung erkannt"
+    description: "Schaltet Licht bei Bewegung ein"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.motion_sensor
+        to: "on"
+    condition:
+      - condition: state
+        entity_id: input_boolean.lighting_motion_enabled
+        state: "on"
+    action:
+      - service: light.turn_on
+        target:
+          entity_id: light.wohnzimmer
+        data:
+          brightness_pct: >
+            {% if is_state('input_boolean.lighting_night_mode', 'on') %}
+              {{ states('input_number.lighting_night_brightness') | int }}
+            {% else %}
+              {{ states('input_number.lighting_default_brightness') | int }}
+            {% endif %}
+
+  - id: lighting_sunset_on
+    alias: "Licht - Sonnenuntergang"
+    description: "Schaltet Lichter bei Sonnenuntergang ein"
+    trigger:
+      - platform: sun
+        event: sunset
+        offset: "-00:30:00"
+    condition:
+      - condition: state
+        entity_id: input_boolean.lighting_automation_enabled
+        state: "on"
+    action:
+      - service: light.turn_on
+        target:
+          entity_id: light.wohnzimmer
+        data:
+          brightness_pct: "{{ states('input_number.lighting_default_brightness') | int }}"
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  lighting_all_off:
+    alias: "Licht - Alles ausschalten"
+    description: "Schaltet alle Lichter aus"
+    sequence:
+      - service: light.turn_off
+        target:
+          entity_id: all
+
+  lighting_scene_movie:
+    alias: "Licht - Filmszene"
+    description: "Aktiviert gedimmte Beleuchtung für Filme"
+    sequence:
+      - service: light.turn_on
+        target:
+          entity_id: light.wohnzimmer
+        data:
+          brightness_pct: 20
+          color_temp: 500
+
+  lighting_scene_romantic:
+    alias: "Licht - Romantische Szene"
+    description: "Aktiviert romantische Beleuchtung"
+    sequence:
+      - service: light.turn_on
+        target:
+          entity_id: light.wohnzimmer
+        data:
+          brightness_pct: 30
+          rgb_color: [255, 100, 50]

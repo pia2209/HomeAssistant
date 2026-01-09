@@ -1,0 +1,136 @@
+# Security Package
+# Enthält alle Konfigurationen für Sicherheitssysteme
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  security_alarm_enabled:
+    name: "Alarmanlage aktiviert"
+    icon: mdi:shield-home
+
+  security_vacation_mode:
+    name: "Urlaubsmodus"
+    icon: mdi:beach
+
+  security_notify_enabled:
+    name: "Sicherheitsbenachrichtigungen"
+    icon: mdi:bell-alert
+
+# ============================================
+# INPUT SELECT
+# ============================================
+input_select:
+  security_mode:
+    name: "Sicherheitsmodus"
+    options:
+      - Deaktiviert
+      - Zuhause
+      - Abwesend
+      - Nacht
+    initial: Deaktiviert
+    icon: mdi:security
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: security_door_alert
+    alias: "Sicherheit - Türalarm"
+    description: "Benachrichtigt bei Türöffnung im Alarmmodus"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.front_door
+        to: "on"
+    condition:
+      - condition: state
+        entity_id: input_boolean.security_alarm_enabled
+        state: "on"
+    action:
+      - service: notify.mobile_app
+        data:
+          title: "Sicherheitswarnung!"
+          message: "Haustür wurde geöffnet"
+          data:
+            priority: high
+
+  - id: security_motion_alert
+    alias: "Sicherheit - Bewegungsalarm"
+    description: "Benachrichtigt bei Bewegung im Alarmmodus"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.motion_sensor
+        to: "on"
+    condition:
+      - condition: state
+        entity_id: input_select.security_mode
+        state: "Abwesend"
+    action:
+      - service: notify.mobile_app
+        data:
+          title: "Bewegung erkannt!"
+          message: "Bewegung im Wohnzimmer erkannt"
+
+  - id: security_vacation_simulation
+    alias: "Sicherheit - Urlaubssimulation"
+    description: "Simuliert Anwesenheit im Urlaubsmodus"
+    trigger:
+      - platform: time_pattern
+        hours: "/2"
+    condition:
+      - condition: state
+        entity_id: input_boolean.security_vacation_mode
+        state: "on"
+    action:
+      - service: light.toggle
+        target:
+          entity_id: light.wohnzimmer
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  security_arm_away:
+    alias: "Sicherheit - Abwesenheit aktivieren"
+    description: "Aktiviert Alarmmodus bei Abwesenheit"
+    sequence:
+      - service: input_select.select_option
+        target:
+          entity_id: input_select.security_mode
+        data:
+          option: Abwesend
+      - service: input_boolean.turn_on
+        target:
+          entity_id: input_boolean.security_alarm_enabled
+      - service: light.turn_off
+        target:
+          entity_id: all
+
+  security_disarm:
+    alias: "Sicherheit - Deaktivieren"
+    description: "Deaktiviert Alarmmodus"
+    sequence:
+      - service: input_select.select_option
+        target:
+          entity_id: input_select.security_mode
+        data:
+          option: Deaktiviert
+      - service: input_boolean.turn_off
+        target:
+          entity_id: input_boolean.security_alarm_enabled
+
+  security_panic:
+    alias: "Sicherheit - Panik"
+    description: "Aktiviert Panikalarm"
+    sequence:
+      - service: notify.mobile_app
+        data:
+          title: "PANIKALARM!"
+          message: "Panikalarm wurde ausgelöst!"
+          data:
+            priority: critical
+      - service: light.turn_on
+        target:
+          entity_id: all
+        data:
+          flash: long

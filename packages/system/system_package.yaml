@@ -1,0 +1,132 @@
+# System Package
+# Enthält alle Konfigurationen für Systemverwaltung
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  system_maintenance_mode:
+    name: "Wartungsmodus"
+    icon: mdi:wrench
+
+  system_debug_mode:
+    name: "Debug Modus"
+    icon: mdi:bug
+
+  system_backup_enabled:
+    name: "Automatische Backups"
+    icon: mdi:backup-restore
+
+# ============================================
+# INPUT DATETIME
+# ============================================
+input_datetime:
+  system_last_restart:
+    name: "Letzter Neustart"
+    has_date: true
+    has_time: true
+
+  system_next_maintenance:
+    name: "Nächste Wartung"
+    has_date: true
+    has_time: true
+
+# ============================================
+# SENSOR
+# ============================================
+sensor:
+  - platform: template
+    sensors:
+      system_uptime_formatted:
+        friendly_name: "System Laufzeit"
+        value_template: >
+          {% set uptime = as_timestamp(now()) - as_timestamp(states('sensor.last_boot')) %}
+          {% set days = (uptime / 86400) | int %}
+          {% set hours = ((uptime % 86400) / 3600) | int %}
+          {{ days }} Tage, {{ hours }} Stunden
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: system_low_disk_alert
+    alias: "System - Speicherplatzwarnung"
+    description: "Warnt bei niedrigem Speicherplatz"
+    trigger:
+      - platform: numeric_state
+        entity_id: sensor.disk_use_percent
+        above: 90
+    action:
+      - service: notify.mobile_app
+        data:
+          title: "Speicherplatzwarnung"
+          message: "Festplatte ist zu {{ states('sensor.disk_use_percent') }}% voll"
+
+  - id: system_startup_notification
+    alias: "System - Startbenachrichtigung"
+    description: "Benachrichtigt nach Systemstart"
+    trigger:
+      - platform: homeassistant
+        event: start
+    action:
+      - service: input_datetime.set_datetime
+        target:
+          entity_id: input_datetime.system_last_restart
+        data:
+          datetime: "{{ now().strftime('%Y-%m-%d %H:%M:%S') }}"
+      - service: notify.mobile_app
+        data:
+          title: "Home Assistant gestartet"
+          message: "System wurde erfolgreich gestartet"
+
+  - id: system_weekly_backup
+    alias: "System - Wöchentliches Backup"
+    description: "Erstellt wöchentliches Backup"
+    trigger:
+      - platform: time
+        at: "03:00:00"
+    condition:
+      - condition: time
+        weekday:
+          - sun
+      - condition: state
+        entity_id: input_boolean.system_backup_enabled
+        state: "on"
+    action:
+      - service: hassio.backup_full
+        data:
+          name: "Wöchentliches Backup {{ now().strftime('%Y-%m-%d') }}"
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  system_restart:
+    alias: "System - Neustart"
+    description: "Startet Home Assistant neu"
+    sequence:
+      - service: notify.mobile_app
+        data:
+          title: "Systemneustart"
+          message: "Home Assistant wird neu gestartet..."
+      - delay:
+          seconds: 5
+      - service: homeassistant.restart
+
+  system_create_backup:
+    alias: "System - Backup erstellen"
+    description: "Erstellt manuelles Backup"
+    sequence:
+      - service: hassio.backup_full
+        data:
+          name: "Manuelles Backup {{ now().strftime('%Y-%m-%d %H:%M') }}"
+      - service: notify.mobile_app
+        data:
+          title: "Backup erstellt"
+          message: "Backup wurde erfolgreich erstellt"
+
+  system_clear_logs:
+    alias: "System - Logs löschen"
+    description: "Löscht Home Assistant Logs"
+    sequence:
+      - service: system_log.clear

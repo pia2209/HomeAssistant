@@ -1,0 +1,92 @@
+# Climate Package
+# Enthält alle Konfigurationen für Klimasteuerung
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  climate_automation_enabled:
+    name: "Klimaautomatisierung aktiviert"
+    icon: mdi:thermostat-auto
+
+# ============================================
+# INPUT NUMBER
+# ============================================
+input_number:
+  climate_target_temperature:
+    name: "Zieltemperatur"
+    min: 16
+    max: 28
+    step: 0.5
+    unit_of_measurement: "°C"
+    icon: mdi:thermometer
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: climate_auto_heating
+    alias: "Klima - Automatische Heizung"
+    description: "Schaltet Heizung basierend auf Zeitplan"
+    trigger:
+      - platform: time
+        at: "06:00:00"
+    condition:
+      - condition: state
+        entity_id: input_boolean.climate_automation_enabled
+        state: "on"
+    action:
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          temperature: "{{ states('input_number.climate_target_temperature') | float }}"
+
+  - id: climate_night_mode
+    alias: "Klima - Nachtmodus"
+    description: "Reduziert Temperatur in der Nacht"
+    trigger:
+      - platform: time
+        at: "22:00:00"
+    action:
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          temperature: 18
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  climate_boost_heating:
+    alias: "Klima - Schnellheizung"
+    description: "Aktiviert Boost-Modus für schnelles Aufheizen"
+    sequence:
+      - service: climate.set_hvac_mode
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          hvac_mode: heat
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          temperature: 25
+      - delay:
+          hours: 1
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          temperature: "{{ states('input_number.climate_target_temperature') | float }}"
+
+  climate_eco_mode:
+    alias: "Klima - Energiesparmodus"
+    description: "Aktiviert energiesparende Einstellungen"
+    sequence:
+      - service: climate.set_temperature
+        target:
+          entity_id: climate.wohnzimmer
+        data:
+          temperature: 18

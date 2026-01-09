@@ -6,6 +6,19 @@ default_config:
 frontend:
   themes: !include_dir_merge_named themes
 
+# ============================================
+# PACKAGES
+# Organisiert Konfigurationen in logischen Gruppen
+# ============================================
+homeassistant:
+  packages:
+    climate: !include packages/climate/climate_package.yaml
+    dashboard: !include packages/dashboard/dashboard_package.yaml
+    lighting: !include packages/lighting/lighting_package.yaml
+    media: !include packages/media/media_package.yaml
+    security: !include packages/security/security_package.yaml
+    system: !include packages/system/system_package.yaml
+
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml

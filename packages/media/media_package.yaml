@@ -1,0 +1,108 @@
+# Media Package
+# Enthält alle Konfigurationen für Mediensteuerung
+
+# ============================================
+# INPUT SELECT
+# ============================================
+input_select:
+  media_source:
+    name: "Medienquelle"
+    options:
+      - TV
+      - Spotify
+      - Radio
+      - YouTube
+    icon: mdi:multimedia
+
+  media_room:
+    name: "Aktiver Raum"
+    options:
+      - Wohnzimmer
+      - Schlafzimmer
+      - Küche
+      - Überall
+    icon: mdi:home
+
+# ============================================
+# INPUT BOOLEAN
+# ============================================
+input_boolean:
+  media_party_mode:
+    name: "Party Modus"
+    icon: mdi:party-popper
+
+  media_sync_lights:
+    name: "Lichter mit Musik synchronisieren"
+    icon: mdi:lightbulb-on
+
+# ============================================
+# INPUT NUMBER
+# ============================================
+input_number:
+  media_default_volume:
+    name: "Standard Lautstärke"
+    min: 0
+    max: 100
+    step: 5
+    unit_of_measurement: "%"
+    icon: mdi:volume-medium
+
+# ============================================
+# AUTOMATION
+# ============================================
+automation:
+  - id: media_pause_on_call
+    alias: "Medien - Bei Anruf pausieren"
+    description: "Pausiert Medien bei eingehendem Anruf"
+    trigger:
+      - platform: state
+        entity_id: sensor.phone_state
+        to: "ringing"
+    action:
+      - service: media_player.media_pause
+        target:
+          entity_id: media_player.wohnzimmer
+
+  - id: media_party_lights
+    alias: "Medien - Party Lichter"
+    description: "Aktiviert Partylicht bei Party-Modus"
+    trigger:
+      - platform: state
+        entity_id: input_boolean.media_party_mode
+        to: "on"
+    action:
+      - service: light.turn_on
+        target:
+          entity_id: light.wohnzimmer
+        data:
+          effect: colorloop
+
+# ============================================
+# SCRIPT
+# ============================================
+script:
+  media_play_spotify:
+    alias: "Medien - Spotify abspielen"
+    description: "Startet Spotify auf ausgewähltem Gerät"
+    sequence:
+      - service: media_player.select_source
+        target:
+          entity_id: media_player.wohnzimmer
+        data:
+          source: Spotify
+      - service: media_player.volume_set
+        target:
+          entity_id: media_player.wohnzimmer
+        data:
+          volume_level: "{{ states('input_number.media_default_volume') | float / 100 }}"
+
+  media_goodnight:
+    alias: "Medien - Gute Nacht"
+    description: "Schaltet alle Medien aus"
+    sequence:
+      - service: media_player.turn_off
+        target:
+          entity_id: all
+      - service: input_boolean.turn_off
+        target:
+          entity_id: input_boolean.media_party_mode
